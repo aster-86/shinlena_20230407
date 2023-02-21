@@ -2,11 +2,27 @@
 
 [mask time=10]
 [bg  time="10"  method="crossfade"  storage="bg_sakuranight3_without_feido.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  html5="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  html5="false"  ]
 [tb_show_message_window] 
-[chara_show  name="辛"  time="10"  wait="true"  storage="chara/3/shin1.png"  width="443"  height="900"  left="200"  top="0"  reflect="false"  ]
-[chara_show  name="蕾娜"  time="10"  wait="true"  storage="chara/4/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
+[chara_show  name="辛"  time="10"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="900"  left="200"  top="0"  reflect="false"  ]
+[chara_show  name="蕾娜"  time="10"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
 [mask_off time=10]
+[tb_start_text mode=1 ]
+#萊登
+是『那件事』呀。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+那還真是讓人『難忘』的一晚對吧，辛？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+修迦大人和利迦大人意味深長的看了彼此一眼，就不再多說什麼。[p]
+諾贊大人先是半瞇著眼睛回瞪了兩位大人之後，輕輕地嘆了一口氣。[p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #辛
 ⋯⋯⋯⋯雖然我也沒有帶酒過來，但總之妳不可以再喝到酒了。[p]
@@ -21,12 +37,12 @@
 辛大怒找馬塞爾算帳，安琪賽歐打圓場，賽歐提議玩國王遊戲，要菲多幫忙發牌。菲多決定小小報復辛之前沒有帶它一起賞花。[p]
 [_tb_end_text]
 
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="276"  width="200"  height=""  text="支線A"  _clickable_img=""  target="*GOOD_END"  ]
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="350"  width="200"  height=""  text="支線B"  _clickable_img=""  target="*NORMAL_END"  ]
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="430"  width="200"  height=""  text="支線C"  _clickable_img=""  target="*BAD_END"  ]
+[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="276"  width="200"  height=""  text="支線A"  _clickable_img=""  target="*Good_End"  ]
+[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="350"  width="200"  height=""  text="支線B"  _clickable_img=""  target="*Normal_End"  ]
+[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="430"  width="200"  height=""  text="支線C"  _clickable_img=""  target="*Bad_End"  ]
 [tb_hide_message_window  ]
 [s  ]
-*GOOD_END
+*Good_End
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -40,9 +56,10 @@ GOOD END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]
-*NORMAL_END
+*Normal_End
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -56,9 +73,10 @@ NORMAL END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]
-*BAD_END
+*Bad_End
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -71,5 +89,6 @@ BAD END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]

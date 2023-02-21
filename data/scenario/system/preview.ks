@@ -1,1 +1,2 @@
+[hidemenubutton] 
 [return] 

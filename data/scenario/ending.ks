@@ -1,7 +1,7 @@
 [_tb_system_call storage=system/ending.ks]
 
-[bg  time="1000"  method="crossfade"  storage="bg_base.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  html5="false"  ]
+[cm  ]
+[bg  time="1000"  method="crossfade"  storage="bg_sakuranight2.png"  ]
 [tb_ptext_show  x="600"  y="233"  size="30"  color="0x0f0e0e"  time="1000"  text="立繪：Aster"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="596"  y="290"  size="30"  color="0x0f0e0e"  time="1000"  text="遊戲製作：Aster"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="596"  y="351"  size="30"  color="0x0f0e0e"  time="1000"  text="logo：緋嵐"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]

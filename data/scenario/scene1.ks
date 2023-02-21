@@ -1,10 +1,9 @@
 [_tb_system_call storage=system/scene1.ks]
 
 [cm  ]
-[bg  time="0"  method="crossfade"  storage="bg_black.png"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  html5="false"  ]
-[tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="false"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
 
@@ -32,7 +31,7 @@
 
 [_tb_end_text]
 
-[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/3/shin1.png"  width="443"  height="900"  left="446"  top="0"  reflect="false"  ]
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="900"  left="446"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
 嗯，好了。[p]
@@ -51,7 +50,7 @@
 米利傑大人和潘洛斯大人則全被瞬間照亮的景致吸引了目光。[p]
 [_tb_end_text]
 
-[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/4/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 哇⋯⋯好美喔⋯⋯⋯⋯[p]
@@ -95,7 +94,7 @@
 嗶！[p]
 [_tb_end_text]
 
-[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/3/shin1.png"  width="443"  height="900"  left="200"  top="0"  reflect="false"  ]
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="900"  left="200"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
 是啊，我也記得，在第八十六區時，也曾和先鋒戰隊全員一起晚上去賞櫻。[p]
@@ -106,7 +105,7 @@
 等米利傑大人從盒子裡拿起兩份三明治之後，諾贊大人才把三明治盒直接遞給馬塞爾大人。[p]
 [_tb_end_text]
 
-[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/4/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 抱歉喔，阿涅塔。[p]
@@ -206,12 +205,12 @@
 辛大怒找馬塞爾算帳，安琪賽歐打圓場，賽歐提議玩國王遊戲，要菲多幫忙發牌。菲多決定小小報復辛之前沒有帶它一起賞花。[p]
 [_tb_end_text]
 
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="276"  width="200"  height=""  text="支線A"  _clickable_img=""  target="*GOOD_END"  ]
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="350"  width="200"  height=""  text="支線B"  _clickable_img=""  target="*NORMAL_END"  ]
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="430"  width="200"  height=""  text="支線C"  _clickable_img=""  target="*BAD_END"  ]
+[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="276"  width="200"  height=""  text="支線A"  _clickable_img=""  target="*Good_End"  ]
+[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="350"  width="200"  height=""  text="支線B"  _clickable_img=""  target="*Normal_End"  ]
+[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="430"  width="200"  height=""  text="支線C"  _clickable_img=""  target="*Bad_End"  ]
 [tb_hide_message_window  ]
 [s  ]
-*GOOD_END
+*Good_End
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -228,7 +227,7 @@ GOOD END[p]
 [stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]
-*NORMAL_END
+*Normal_End
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -245,7 +244,7 @@ NORMAL END[p]
 [stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]
-*BAD_END
+*Bad_End
 
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
