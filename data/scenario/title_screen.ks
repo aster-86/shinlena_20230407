@@ -9,7 +9,7 @@
 [bg  storage="bg_sakuranight.png"  ]
 *title
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  ]
+[playbgm  volume="100"  time="0"  loop="true"  storage="music.ogg"  ]
 [tb_image_show  time="1000"  storage="default/logo.png"  width="400"  height="273"  x="474"  y="113"  _clickable_img=""  name="img_7"  ]
 [glink  color="ts01"  text="New&nbsp;Game"  x="550"  y="411"  size="20"  target="*start"  width="200"  height=""  _clickable_img=""  ]
 [glink  color="ts01"  text="Load&nbsp;Game"  x="550"  y="488"  size="20"  target="*load"  width="200"  height=""  _clickable_img=""  ]
