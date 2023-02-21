@@ -1,2 +1,5 @@
-[preload  storage="./data/bgimage/bg_sakuranight3_without_feido.png"  ]
+[preload  storage="./data/bgimage/bg1.png"  ]
+[preload  storage="./data/fgimage/default/ending1.png"  ]
+[preload  storage="./data/fgimage/default/ending2.png"  ]
+[preload  storage="./data/bgimage/title.png"  ]
 [return]

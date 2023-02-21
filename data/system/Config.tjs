@@ -2,16 +2,16 @@
 ;debugMenu.visible=false
 ;configSave=webstorage
 ;global.config_version=5.00
-;System.title=Shinlena_20230407_
-;projectID=Shinlena_20230407_
+;System.title=シンレナ - エイプリルフール - 2022 by Aster&Lemonn
+;projectID=ShinLena_game
 ;game_version=0.0
 ;ScreenRatio=fix
 ;patch_apply_auto=true
 ;ScreenCentering=true
 ;useCamera=true
 ;use3D=false
-;scWidth=1280
-;scHeight=720
+;scWidth=640
+;scHeight=960
 ;vchat=false
 ;vchatMenuVisible=false
 ;chSpeed=30
@@ -38,7 +38,6 @@
 ;configThumbnail=true
 ;configThumbnailQuality=middle
 ;configSaveSlotNum=5
-;configSaveOverwrite=false
 ;maxBackLogNum=50
 ;autoRecordLabel=false
 ;unReadTextSkip=false
@@ -84,3 +83,5 @@
 ;defaultLinkColor=0x0080ff
 ;defaultLinkOpacity=64
 ;vertical=false
+;configSaveOverwrite=false
+;version=5.00
