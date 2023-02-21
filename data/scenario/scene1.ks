@@ -88,7 +88,6 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 嗶！[p]
 [_tb_end_text]
@@ -145,7 +144,6 @@
 雖然是去悼念戰友，但是那晚明明和辛還有萊登一起看了第一戰區的櫻花⋯⋯辛好過分⋯⋯[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
