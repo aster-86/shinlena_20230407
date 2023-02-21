@@ -1,14 +1,12 @@
 [_tb_system_call storage=system/scene1.ks]
 
 [cm  ]
-<<<<<<< HEAD
 [bg  time="0"  method="crossfade"  storage="bg_black.png"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  html5="true"  ]
 [tb_show_message_window  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
 =======
 [tb_show_message_window  ]
->>>>>>> 4bd768ecef7fafdee55c42f39ef7502b9cc18cab
 [tb_start_text mode=1 ]
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
 
