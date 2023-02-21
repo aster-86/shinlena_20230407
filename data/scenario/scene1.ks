@@ -1,7 +1,6 @@
 [_tb_system_call storage=system/scene1.ks]
 
 [cm  ]
-[bg  storage="bg_feido_memory.png"  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
