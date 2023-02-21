@@ -2,11 +2,9 @@
 
 [cm  ]
 [bg  time="0"  method="crossfade"  storage="bg_black.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  html5="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  html5="false"  ]
 [tb_show_message_window  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
-=======
-[tb_show_message_window  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="false"  ]
 [tb_start_text mode=1 ]
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
 
@@ -92,10 +90,7 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-<<<<<<< HEAD
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
-=======
->>>>>>> 4bd768ecef7fafdee55c42f39ef7502b9cc18cab
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="false"  ]
 [tb_start_text mode=1 ]
 嗶！[p]
 [_tb_end_text]
@@ -152,10 +147,7 @@
 雖然是去悼念戰友，但是那晚明明和辛還有萊登一起看了第一戰區的櫻花⋯⋯辛好過分⋯⋯[p]
 [_tb_end_text]
 
-<<<<<<< HEAD
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
-=======
->>>>>>> 4bd768ecef7fafdee55c42f39ef7502b9cc18cab
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="false"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
