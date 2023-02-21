@@ -13,7 +13,7 @@
 		[chara_config ptext="chara_name_area" pos_mode=true time="600" memory="false" anim="true" effect="easeInQuad" pos_change_time="600" ]
 
 		;キャラクターフォーカスなど
-		[chara_config  talk_focus="none" ]
+		[chara_config  talk_focus="brightness" ]
 
 		;クリック待ちボタンについて
 		[glyph fix="false" left="0" top="0" ]

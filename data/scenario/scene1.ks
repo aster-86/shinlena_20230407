@@ -1,9 +1,10 @@
 [_tb_system_call storage=system/scene1.ks]
 
 [cm  ]
-[bg  storage="bg_feido_memory.png"  time="1000"  ]
+[bg  time="0"  method="crossfade"  storage="bg_black.png"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  html5="true"  ]
 [tb_show_message_window  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
 [tb_start_text mode=1 ]
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
 
@@ -15,7 +16,6 @@
 西方地平線邊緣的水瓶座就像當初教我這些的大人一樣，已經完全看不見了。[p]
 [_tb_end_text]
 
-[bg  time="0"  method="crossfade"  storage="bg_feido_memory.png"  ]
 [tb_start_text mode=1 ]
 #賽歐
 萊登，我這邊接好了喔——[p]
@@ -32,14 +32,14 @@
 
 [_tb_end_text]
 
-[chara_show  name="Shin"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="900"  left="446"  top="0"  reflect="false"  ]
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/3/shin1.png"  width="443"  height="900"  left="446"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
 嗯，好了。[p]
 菲多，全部準備好了，接通電源吧。[p]
 [_tb_end_text]
 
-[chara_hide  name="Shin"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="辛"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight3_without_feido.png"  ]
 [tb_show_message_window  ]
@@ -51,14 +51,14 @@
 米利傑大人和潘洛斯大人則全被瞬間照亮的景致吸引了目光。[p]
 [_tb_end_text]
 
-[chara_show  name="Lena"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/4/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 哇⋯⋯好美喔⋯⋯⋯⋯[p]
 
 [_tb_end_text]
 
-[chara_hide  name="Lena"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="蕾娜"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #阿涅塔
 真的全是粉紅色的，這真是太驚人了！[p]
@@ -90,12 +90,12 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
 [tb_start_text mode=1 ]
 嗶！[p]
 [_tb_end_text]
 
-[chara_show  name="Shin"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="900"  left="200"  top="0"  reflect="false"  ]
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/3/shin1.png"  width="443"  height="900"  left="200"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
 是啊，我也記得，在第八十六區時，也曾和先鋒戰隊全員一起晚上去賞櫻。[p]
@@ -106,7 +106,7 @@
 等米利傑大人從盒子裡拿起兩份三明治之後，諾贊大人才把三明治盒直接遞給馬塞爾大人。[p]
 [_tb_end_text]
 
-[chara_show  name="Lena"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/4/lena1.png"  width="443"  height="900"  left="700"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 抱歉喔，阿涅塔。[p]
@@ -147,7 +147,7 @@
 雖然是去悼念戰友，但是那晚明明和辛還有萊登一起看了第一戰區的櫻花⋯⋯辛好過分⋯⋯[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #
@@ -197,8 +197,8 @@
 ⋯⋯⋯⋯雖然我也沒有帶酒過來，但總之妳不可以再喝到酒了。[p]
 [_tb_end_text]
 
-[chara_hide  name="Shin"  time="1000"  wait="true"  pos_mode="true"  ]
-[chara_hide  name="Lena"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="辛"  time="1000"  wait="true"  pos_mode="true"  ]
+[chara_hide  name="蕾娜"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #
 大家要乾杯的時候，蕾娜的果汁剛好已經喝完了，所以自己去旁邊拿了一罐沒開的飲料倒進自己的杯裡。[p]
@@ -207,8 +207,8 @@
 [_tb_end_text]
 
 [glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="276"  width="200"  height=""  text="支線A"  _clickable_img=""  target="*GOOD_END"  ]
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="350"  width="200"  height=""  text="支線B"  _clickable_img=""  target="*GOOD_END"  ]
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="430"  width="200"  height=""  text="支線C"  _clickable_img=""  target="*GOOD_END"  ]
+[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="350"  width="200"  height=""  text="支線B"  _clickable_img=""  target="*NORMAL_END"  ]
+[glink  color="ts01"  storage="scene1.ks"  size="20"  x="537"  y="430"  width="200"  height=""  text="支線C"  _clickable_img=""  target="*BAD_END"  ]
 [tb_hide_message_window  ]
 [s  ]
 *GOOD_END
@@ -225,6 +225,7 @@ GOOD END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]
 *NORMAL_END
@@ -241,6 +242,7 @@ NORMAL END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]
 *BAD_END
@@ -252,9 +254,10 @@ NORMAL END[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-NORMAL END[p]
+BAD END[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]
