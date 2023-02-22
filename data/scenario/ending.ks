@@ -1,11 +1,9 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/ending.ks]
 
-[mask time=10]
-[mask_off time=10]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  html5="false"  ]
 [tb_ptext_show  x="400"  y="100"  size="30"  color="0xffffff"  time="1000"  text="立繪：Aster"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
-[tb_ptext_show  x="400"  y="140"  size="30"  color="0xffffff"  time="1000"  text="遊戲製作：Aster"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="400"  y="140"  size="30"  color="0xffffff"  time="1000"  text="立繪：Aster+Lemonn"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="400"  y="180"  size="30"  color="0xffffff"  time="1000"  text="logo：緋嵐"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="400"  y="220"  size="30"  color="0xffffff"  time="1000"  text="故事共通部分：千紀(進度：動手中)"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [tb_ptext_show  x="400"  y="260"  size="30"  color="0xffffff"  time="1000"  text="洗牌A：千紀"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]

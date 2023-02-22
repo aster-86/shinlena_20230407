@@ -66,7 +66,7 @@
 ;defaultLineSpacing=8
 ;defaultPitch=0
 ;userFace=メイリオ,sans-serif
-;defaultChColor=0xffffff
+;defaultChColor=#ffffff
 ;defaultBold=false
 ;defaultRubySize=10
 ;defaultRubyOffset=-2

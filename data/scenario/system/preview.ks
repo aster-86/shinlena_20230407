@@ -1,3 +1,3 @@
 [hidemenubutton] 
-[preload  storage="./data/bgimage/bg_sakuranight3.png"  ]
+[preload  storage="./data/bgimage/bg_black.png"  ]
 [return] 
