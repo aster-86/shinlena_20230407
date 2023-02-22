@@ -1,0 +1,16 @@
+[_tb_system_call storage=system/preview.ks ]
+
+[mask time=10]
+[mask_off time=10]
+[cm  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
+[bg  storage="bg_sakuranight3.png"  time="1000"  ]
+[tb_show_message_window  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+[tb_start_text mode=1 ]
+恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
+[_tb_end_text]
+
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="100"  top=""  reflect="false"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="500"  top=""  reflect="false"  ]
+[s  ]
