@@ -1,94 +1,25 @@
 [_tb_system_call storage=system/preview.ks ]
 
 [mask time=10]
-[mask_off time=10]
-[cm  ]
-[bg  storage="bg_black.png"  time="1000"  ]
-[tb_ptext_show  x="326"  y="253"  size="30"  color="0xffffff"  time="1000"  text="載入中、請耐心等候!"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
-[playse  volume="100"  time="0"  buf="1"  storage="beep_feido.ogg"  ]
-[tb_ptext_hide  time="1000"  ]
-[tb_show_message_window  ]
-[tb_start_text mode=1 ]
-這裡是齊亞德聯邦西方方面軍，軍械庫基地西邊森林外，除非特別安排了夜間演習，否則晚上不會有人的漆黑演習場。[p]
-滿天的繁星如同珠寶盒中的鑽石灑落在黝黑天鵝絨上，最明亮的天狼星依然閃耀著奪目的光彩，[p]
-西方地平線邊緣的水瓶座就像當初教我這些的大人一樣，已經完全看不見了。[p]
-[_tb_end_text]
-
+[bg  time="10"  method="crossfade"  storage="bg_sakuranight3.png"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
-[tb_start_text mode=1 ]
-#賽歐
-萊登，我這邊接好了喔——[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#馬塞爾
-修迦，這邊也好了。[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#萊登
-辛，你那邊呢？[p]
-
-[_tb_end_text]
-
-[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="150"  top="0"  reflect="false"  ]
-[tb_start_text mode=1 ]
-#辛
-嗯，好了。[p]
-菲多，全部準備好了，接通電源吧。[p]
-[_tb_end_text]
-
-[chara_hide  name="辛"  time="1000"  wait="true"  pos_mode="true"  ]
-[tb_hide_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="bg_sakuranight3.png"  ]
-[tb_show_message_window  ]
-[tb_start_text mode=1 ]
-#
-啪！的一聲。[p]
-燈光照亮了各自站在樹下的利迦大人、馬塞爾大人、諾贊大人以及修迦大人。[p]
-在他們四個人之間的空地，負責鋪設野餐墊以及擺放餐點的艾瑪大人、庫克米拉大人、[p]
-米利傑大人和潘洛斯大人則全被瞬間照亮的景致吸引了目光。[p]
-[_tb_end_text]
-
-[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="500"  top="0"  reflect="false"  ]
-[tb_start_text mode=1 ]
-#蕾娜
-哇⋯⋯好美喔⋯⋯⋯⋯[p]
-
-[_tb_end_text]
-
-[chara_hide  name="蕾娜"  time="1000"  wait="true"  pos_mode="true"  ]
-[tb_start_text mode=1 ]
-#阿涅塔
-真的全是粉紅色的，這真是太驚人了！[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-米利傑大人和潘洛斯大人不由得發出驚嘆的同時，四位大人也回到了野餐墊上。[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
-#可蕾娜
-阿涅塔沒有看過櫻花嗎？[p]
-給妳，主廚特製超級豪華賞花三明治。[p]
-[_tb_end_text]
-
+[tb_show_message_window] 
+[mask_off time=10]
 [tb_start_text mode=1 ]
 #阿涅塔
 謝謝。[p]
 我當然有看過櫻花，不過第一區裡只有零星的幾棵而已，這麼大一整片全部都是櫻花樹倒是第一次看見呢，蕾娜應該也是第一次看見這麼多櫻花⋯⋯[p]
-賽歐你拿自己的三明治起來就好了啦，萊登，盒子給你。[p]
+賽歐你拿自己的三明治起來就好了啦！萊登，盒子給你。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #
-配合諾贊大人的賞花活動，軍官餐廳主廚特別為他們準備了粉紅鮮蝦沙拉佐鮮綠生菜三明治。[p]
-被三明治塞得滿滿的餐盒被艾瑪大人拿起交給庫克米拉大人，傳到潘洛斯大人手中之後，越過利迦大人進到修迦大人的手裡。[p]
-就像那時各位大人同樣在櫻花樹下傳遞著從廢墟找到的礦泉水瓶一樣。[p]
+配合賞花活動，軍官餐廳主廚特別為他們準備了便當。[p]
+三明治塞得滿滿的餐盒被艾瑪大人拿起交給庫克米拉大人，傳到潘洛斯大人手中之後，越過利迦大人進到修迦大人的手裡。[p]
+就像各位大人曾經在櫻花樹下度過的那夜，熱鬧歡愉。[p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  html5="false"  ]
 [tb_start_text mode=1 ]
 嗶！[p]
 [_tb_end_text]
@@ -96,22 +27,16 @@
 [chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="150"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
-是啊，我也記得，在第八十六區時，也曾和先鋒戰隊全員一起晚上去賞櫻。[p]
+是啊，我也還記得。在第八十六區最後的部隊，也曾和先鋒戰隊全員一起晚上去賞櫻。[p]
 [_tb_end_text]
 
 [chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="500"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#
-等米利傑大人從盒子裡拿起兩份三明治之後，諾贊大人才把三明治盒直接遞給馬塞爾大人。[p]
-[_tb_end_text]
-
-[tb_start_text mode=1 ]
 #蕾娜
 抱歉喔，阿涅塔。[p]
 其實⋯⋯我之前已經看過櫻花林了⋯⋯[p]
-就是在機動打擊群的初戰，協助共和國收復北部領土的時候。和辛一起⋯⋯⋯⋯[p]
-
-
+就是在機動打擊群的初戰，協助共和國收復北部領土的時候。[p]
+和辛一起⋯⋯⋯⋯[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -126,11 +51,9 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#
-白皙的臉頰染上與周圍櫻花相同的粉紅，說話的聲音隨著內容越來越小，[p]
-最後連我的麥克風都收不到音了的米利傑大人，在聽見諾贊大人短促的回應了一聲之後，情緒顯得有些激動。[p]
-不過米利傑大人說的究竟是什麼時候的事呢，[p]
-機動打擊群的初戰應該是去年四月的事情吧，難道諾贊大人趁我在臨時基地待命的時候偷跑出去了嗎？[p]
+#菲多
+米利傑大人說的究竟是什麼時候的事呢，機動打擊群的初戰應該是去年四月的事情吧，[p]
+難道諾贊大人趁我在臨時基地待命的時候偷跑出去了嗎？[p]
 又不帶我一起⋯⋯[p]
 [_tb_end_text]
 
@@ -145,38 +68,36 @@
 雖然是去悼念戰友，但是那晚明明和辛還有萊登一起看了第一戰區的櫻花⋯⋯辛好過分⋯⋯[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  html5="false"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
-#
-嗶！[p]
-就是嘛，就像米利傑大人說的，諾贊大人好過分！[p]
+#菲多
+就是嘛，就像米利傑大人說的，原來您從那麼久以前就會一個人偷偷溜出去，不讓我隨時服侍您⋯⋯[p]
+明明以前不管到哪裡都會讓我跟著的，諾贊大人好過分！[p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #辛
 菲多，怎麼連你也這樣⋯⋯[p]
-先不說賞花的事情，蕾娜，妳不可以喝酒喔。[p]
+先不說賞花和菲多的事情，蕾娜，妳今天不可以喝酒。[p]
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
-#
+#菲多
 諾贊大人請您不要轉移話題！[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #蕾娜
 酒嗎？[p]
-聯邦軍並沒有禁止勤務時間之外喝酒，我們在盟約同盟的派對上也有喝⋯⋯[p]
-⋯⋯辛為什麼特別要我不能喝呢？[p]
-
+聯邦軍並沒有禁止勤務時間之外喝酒，在各種派對上大家也都有喝⋯⋯⋯⋯[p]
+辛為什麼特別要我今天不能喝呢？[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #萊登
-是『那件事』呀。[p]
+是因為『那件事』呀。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -192,7 +113,204 @@
 
 [tb_start_text mode=1 ]
 #辛
-⋯⋯⋯⋯雖然我也沒有帶酒過來，但總之妳不可以再喝到酒了。[p]
+⋯⋯[p]
+蕾娜明天一早還有重要的會議吧，所以我希望妳今晚不要喝酒，[p]
+我們也帶了熱咖啡和其他飲料過來，妳從裡面挑選好嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+唔⋯⋯[p]
+⋯⋯好吧。雖然不能和大家一起有些可惜，不過現在也只能妥協了。[p]
+嘿咻！嗯——這瓶應該是熱水果茶吧，我就喝這個吧。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#安琪
+好啦——[p]
+大家都有三明治和飲料了吧，總之我們先來乾杯，然後開始吃東西吧。[p]
+主廚為了我們，可是特別配合季節使用了象徵冬天的白色麵包，[p]
+春天印象的粉紅色鮮蝦沙拉還有代表夏天的新鮮翠綠生菜喔。[p]
+準備好了嗎？預——備——[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+乾杯——！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+不能烤肉雖然有些可惜，不過這個真好吃。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+確實還不錯，不過我說可蕾娜，妳的沙拉沾到頭髮上了喔。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+咦？哪裡哪裡？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+就在可蕾娜畫面左邊耳朵旁的髮梢喔，是的，就是那邊。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+我有帶餐巾紙過來，庫克米拉妳等我一下。咦，怎麼不見了？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#阿涅塔
+馬塞爾，你負責帶來的東西我剛才已經全部都放到野餐墊上了。[p]
+可蕾娜，餐巾紙給妳。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+謝啦，阿涅塔。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+辛已經吃完了喔？[p]
+速度太快了吧，你真的有好好品嘗味道嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+嗯，很好吃。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人和他的夥伴們輕鬆自在的在櫻花美景下用餐，快樂的氣氛連不是人類的我也確實感受到了。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+辛！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+你真的有好好感受主廚做的料理嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+這可是主廚非常——非常——用心為我們準備的喔⋯⋯[p]
+如果不好好品嘗的話，主廚會傷心⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+⋯⋯不對，主廚會生氣的喔！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+蕾娜！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+喂，不會吧。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+蕾娜明明沒有拿啤酒啊？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+她到底喝了什麼？⋯⋯⋯⋯這是熱紅酒！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+啊，我想起來了！剛才從基地出發之前，主廚說今晚會越來越冷，[p]
+為了避免我們像達斯汀一樣因為重感冒而臥床休養，所以硬塞了一瓶熱紅酒到我的背包裡⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#阿涅塔
+然後這瓶熱紅酒被不知情的我從馬塞爾的背包拿出來放在野餐墊上。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#安琪
+蕾娜就這麼剛好的拿到了這瓶加了許多水果和香料一起煮過的熱紅酒，[p]
+再加上我們全都喝啤酒所以也沒注意⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+安琪，妳幫我照顧蕾娜。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#安琪
+辛要去哪裡呢？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+我記得附近有工兵隊為了建構戰場而設置的偽裝碉堡兼工具儲藏室，[p]
+裡面應該有鐵鍬，不然至少也有鐵鏟。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+諾贊，忘記有熱紅酒確實是我的不對，我道歉，[p]
+但是蕾娜喝醉就不是我可以控制的事情了啊⋯⋯[p]
+⋯⋯諾贊？諾贊！[p]
+你別走啊啊啊啊————[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人您又要丟下我，自己亂跑了嗎？[p]
+你別走啊啊啊啊————[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+辛！請你坐下！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+我才沒有喝醉呢！[p]
+辛、萊登、賽歐、阿涅塔、可蕾娜、安琪、馬塞爾。[p]
+你看，我都沒認錯人，所以我沒有喝醉！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+恕我直言，米利傑大人，[p]
+您現在的發言以及有些搖晃不穩的軀幹，以公共網路上查詢到的資料來看，完完全全符合喝醉的描述喔。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+蕾娜⋯⋯⋯⋯我們去旁邊稍微休息一下好嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+大家現在才要開始玩不是嗎，為什麼要去旁邊休息？[p]
+辛不想跟大家一起玩嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+⋯⋯⋯⋯[p]
 [_tb_end_text]
 
 [chara_hide  name="辛"  time="1000"  wait="true"  pos_mode="true"  ]
