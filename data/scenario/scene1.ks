@@ -1,9 +1,6 @@
 [_tb_system_call storage=system/scene1.ks]
 
 [cm  ]
-[tb_start_tyrano_code]
-[hidemenubutton]
-[_tb_end_tyrano_code]
 
 [playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="false"  ]
 [tb_show_message_window  ]
