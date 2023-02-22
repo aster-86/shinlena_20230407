@@ -1,7 +1,7 @@
 //ティラノビルダーによる自動ビルド　
 ;global.config_version=4.50
-;System.title=Shinlena
-;projectID=Shinlena
+;System.title=test
+;projectID=test
 ;game_version=0.0
 ;ScreenRatio=fix
 ;patch_apply_auto=true

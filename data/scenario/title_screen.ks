@@ -1,33 +1,52 @@
-[_tb_system_call storage=system/title_screen.ks]
+
+;==============================
+; タイトル画面
+;==============================
 
 [hidemenubutton]
 
 [tb_clear_images]
 
-[tb_keyconfig  flag="0"  ]
-[tb_hide_message_window  ]
-[bg  storage="bg_sakuranight2.png"  ]
-*title
+[tb_keyconfig flag=0]
 
-[tb_image_show  time="1000"  storage="default/logo.png"  width="400"  height="273"  x="502"  y="107"  _clickable_img=""  name="img_6"  ]
-[glink  color="theme_tyrano_02"  text="New&nbsp;Game"  x="550"  y="411"  size="20"  target="*start"  width="200"  height=""  _clickable_img=""  ]
-[glink  color="theme_tyrano_02"  text="Load&nbsp;Game"  x="550"  y="488"  size="20"  target="*load"  width="200"  height=""  _clickable_img=""  ]
-[s  ]
-*start
 
-[tb_image_hide  time="1000"  ]
-[bg  time="0"  method="crossfade"  storage="bg_black.png"  ]
-[showmenubutton]
+	;標準のメッセージレイヤを非表示
+	[tb_hide_message_window]
 
-[cm  ]
-[tb_keyconfig  flag="1"  ]
-[jump  storage="scene1.ks"  target=""  ]
-[s  ]
-*load
+	;タイトル表示
+	[bg storage ="title.jpg"]
 
-[tb_image_hide  time="1000"  ]
-[cm  ]
-[showload]
+	*title
 
-[jump  target="*title"  storage=""  ]
-[s  ]
+	
+
+	;タイトル各種ボタン
+	[glink color="black" text="New&nbsp;Game" x=600 y=370 size=24 target="*start"]
+	[glink color="black" text="Load&nbsp;Game" x=600 y=470 size=24 target="*load"]
+
+	
+
+	[s]
+
+	;-------ボタンが押されたときの処理
+
+	*start
+
+	
+
+	[cm]
+	[tb_keyconfig flag=1]
+
+	@jump storage="scene1.ks"
+	[s]
+
+	;--------ロードが押された時の処理
+	*load
+
+	[cm]
+	[showload]
+	[jump target=*title]
+
+	[s]
+
+
