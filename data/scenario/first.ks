@@ -18,7 +18,6 @@
 
 ;プラグインの設定
 [call storage="system/plugin.ks"]
-[call storage="system/plugin_third.ks"]
 
 ;タイトルの設定
 ;[title name="now loading"]

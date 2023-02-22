@@ -9,11 +9,9 @@
 ;	fixボタン消し
 	[clearfix]
 	
-;ゲーム中に効果が設定されている場合は無効
+;　画面効果を向こうに
 [free_layermode time=0 ]
 [reset_camera time=0]
-	
-;　イメージ消去
 
 [iscript]
 $(".layer_camera").empty();
@@ -32,7 +30,7 @@ $(".layer_camera").empty();
 	
 	tf.text_skip ="ON";
 	
-	if(TG.config.unReadTextSkip != "true"){
+	if(TG.config.unReadTextSkip != true){
 		tf.text_skip ="OFF";
 	} 
 
@@ -44,10 +42,10 @@ $(".layer_camera").empty();
 [cm]
 
 ;	コンフィグ用の背景を読み込んでトランジション
-	[bg storage="../../tyrano/images/system/bg_config.jpg" time=100]
+	[bg storage="bg_config.jpg" time=100]
 
 ;	画面右上の「Back」ボタン
-	[button graphic="config/c_btn_back.png" fix=true enterimg="config/c_btn_back2.png" target="*backtitle" x=840 y=20]
+	[button graphic="config/c_btn_back.png" enterimg="config/c_btn_back2.png" target="*backtitle" x=840 y=20]
 
 [jump target="*config_page"]
 
@@ -126,7 +124,7 @@ $(".layer_camera").empty();
 [button fix="true" name="auto,auto_3000" target="*auto_speed_change" exp="tf.set_auto_speed=3000;tf.text_auto=4" graphic="config/c_btn.png" width=35 height=35 x=460 y=340]
 [button fix="true" name="auto,auto_2500" target="*auto_speed_change" exp="tf.set_auto_speed=2500;tf.text_auto=5" graphic="config/c_btn.png" width=35 height=35 x=500 y=340]
 [button fix="true" name="auto,auto_2000" target="*auto_speed_change" exp="tf.set_auto_speed=2000;tf.text_auto=6" graphic="config/c_btn.png" width=35 height=35 x=540 y=340]
-[button fix="true" name="auto,auto_1300" target="*auto_speed_change" exp="tf.set_auto_speed=1300;tf.text_auto=7" graphic="config/c_btn.png" width=35 height=35 x=580 y=340]
+[button fix="true" name="auto,auto_1000" target="*auto_speed_change" exp="tf.set_auto_speed=1000;tf.text_auto=7" graphic="config/c_btn.png" width=35 height=35 x=580 y=340]
 [button fix="true" name="auto,auto_800"   target="*auto_speed_change" exp="tf.set_auto_speed=800;tf.text_auto=8"  graphic="config/c_btn.png" width=35 height=35 x=620 y=340]
 [button fix="true" name="auto,auto_500"   target="*auto_speed_change" exp="tf.set_auto_speed=500;tf.text_auto=9"  graphic="config/c_btn.png" width=35 height=35 x=660 y=340]
 
@@ -168,24 +166,15 @@ $(".layer_camera").empty();
 ; タイトルに戻る
 ;--------------------------------------------------------------------------------
 *backtitle
-
-[iscript]
-tf.flag_back=$(".message1_fore").css("display");
-[endscript]
-
-[if exp="tf.flag_back=='none'"]
-
 [cm]
 [layopt layer=message1 visible=false]
 [freeimage layer=1]
 [clearfix]
+
+[wait_cancel]
+
 ;コンフィグの呼び出しに sleepgame を使っているので、必ず awakegame で戻してやってください
 [awakegame]
-
-[endif]
-
-[return]
-
 
 ;===================================================
 
@@ -229,7 +218,7 @@ tf.flag_back=$(".message1_fore").css("display");
 	[layopt layer=message1 visible=true]
 	[current layer=message1]
 	[font color="0x454D51"]
-	このスピードで表示されます
+	■■■■■■■■■■■■■■■
 
 		[iscript]
 		tf.system.backlog.pop(); // 上の「このスピードで表示されます」のテキストを履歴から削除

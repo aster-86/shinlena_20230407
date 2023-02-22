@@ -3,19 +3,13 @@ window.tyrano_lang = {
     word : {
         
         "go_title":"Back to Title Screen?",
-        "exit_game":"Close the window and quit the game?",
         "not_saved":"Empty Save Slot",
         "tag":"Tag name",
         "not_exists":"could not be found",
-        "error":"An error occurred. check the scenario script.",
-        "label":"The label",
-        "label_double":"has more than one occurrence in the scene file",
         "error_occurred":"An error occurred. check the scenario script.",
-        "save_file_violation_1":"Save data detected. Only load data from a trusted source!",
-        "save_file_violation_2":"Load the save data and start the game?",
-        "save_file_violation_3":"Start-up aborted. Please delete the save data and restart.",
-         "reload":"reload",
-         
+        "label":"The label",
+        "label_double":"has more than one occurrence in the scene file"
+        
     },
 
     novel : {

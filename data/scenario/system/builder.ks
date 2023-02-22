@@ -211,39 +211,6 @@ tf.swing_2 = mp.swing*2*-1;
 
 
 
-[macro name="tb_fuki_start"]
-
-@layopt layer=message0 visible=false
-
-[position layer="message1" width=1240 height=237 top=417 left=20 ]
-[position layer="message1" page=fore margint=5 marginl=10 marginr=10 marginb=10 vertical=false opacity="0" radius="0" color="0x000000" ]
-
-@layopt layer=message1 visible=true
-
-[fuki_start layer="message1"]
-
-[current layer="message1"]
-
-[endmacro]
-
-
-[macro name="tb_fuki_stop"]
-
-@layopt layer=message0 visible=true
-
-@layopt layer=message1 visible=false
-
-[fuki_stop layer="message1"]
-
-[current layer="message0"]
-
-
-[endmacro]
-
-
-
-
-
 
 
 

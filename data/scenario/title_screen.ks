@@ -6,14 +6,17 @@
 
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="Magic_in_the_Garden.ogg"  ]
+[bg  storage="bg_sakuranight2.png"  ]
 *title
 
-[bg  storage="title.png"  ]
-[glink  color="btn_04_black"  text="New&nbsp;Game"  x="203"  y="650"  size="20"  target="*start"  width="200"  height=""  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/logo.png"  width="400"  height="273"  x="502"  y="107"  _clickable_img=""  name="img_6"  ]
+[glink  color="theme_tyrano_02"  text="New&nbsp;Game"  x="550"  y="411"  size="20"  target="*start"  width="200"  height=""  _clickable_img=""  ]
+[glink  color="theme_tyrano_02"  text="Load&nbsp;Game"  x="550"  y="488"  size="20"  target="*load"  width="200"  height=""  _clickable_img=""  ]
 [s  ]
 *start
 
+[tb_image_hide  time="1000"  ]
+[bg  time="0"  method="crossfade"  storage="bg_black.png"  ]
 [showmenubutton]
 
 [cm  ]
@@ -22,6 +25,7 @@
 [s  ]
 *load
 
+[tb_image_hide  time="1000"  ]
 [cm  ]
 [showload]
 
