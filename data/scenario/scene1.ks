@@ -3,7 +3,7 @@
 [cm  ]
 [bg  storage="bg_black.png"  time="1000"  ]
 [tb_ptext_show  x="326"  y="253"  size="30"  color="0xffffff"  time="1000"  text="載入中、請耐心等候!"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
-[playse  volume="100"  time="0"  buf="1"  storage="beep_feido.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -12,7 +12,6 @@
 西方地平線邊緣的水瓶座就像當初教我這些的大人一樣，已經完全看不見了。[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
 [tb_start_text mode=1 ]
 #賽歐
 萊登，我這邊接好了喔——[p]
@@ -86,7 +85,6 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  html5="false"  ]
 [tb_start_text mode=1 ]
 嗶！[p]
 [_tb_end_text]
@@ -143,7 +141,6 @@
 雖然是去悼念戰友，但是那晚明明和辛還有萊登一起看了第一戰區的櫻花⋯⋯辛好過分⋯⋯[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  html5="false"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
 #

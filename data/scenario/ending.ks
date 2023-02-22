@@ -1,4 +1,4 @@
-[_tb_system_call storage=system/_ending.ks]
+[_tb_system_call storage=system/ending.ks]
 
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="music.ogg"  html5="false"  ]
