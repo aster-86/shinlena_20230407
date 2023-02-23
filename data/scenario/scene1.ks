@@ -2,9 +2,7 @@
 
 [cm  ]
 [bg  storage="bg_black.png"  time="1000"  ]
-[tb_ptext_show  x="326"  y="253"  size="30"  color="0xffffff"  time="1000"  text="載入中、請耐心等候!"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
-[tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
