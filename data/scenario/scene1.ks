@@ -2,7 +2,7 @@
 
 [cm  ]
 [bg  storage="bg_black.png"  time="1000"  ]
-[tb_ptext_show  x="185"  y="253"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete.&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  fadeout="false"  wait="true" ]
+[tb_ptext_show  x="185"  y="253"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete...&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  fadeout="false"  wait="true"  in_effect="swing"  out_effect="fadeOut"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="false"  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
