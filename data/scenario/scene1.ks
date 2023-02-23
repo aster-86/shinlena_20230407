@@ -5,7 +5,7 @@
 [cm  ]
 
 [bg  storage="bg_black.png"  time="1000"  ]
-[tb_ptext_show  x="326"  y="253"  size="30"  color="0xffffff"  time="100"  text="Fido Loading complete. Please tap to start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="150"  y="253"  size="30"  color="0xffffff"  time="100"  text="Fido_Loading_complete.Please_tap_to_start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
