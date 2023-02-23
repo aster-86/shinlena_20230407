@@ -1,10 +1,16 @@
 [_tb_system_call storage=system/scene1.ks]
 
+
+
 [cm  ]
+
 [bg  storage="bg_black.png"  time="1000"  ]
+[tb_ptext_show  x="326"  y="253"  size="30"  color="0xffffff"  time="1000"  text="Fido Loading complete. Please tap to start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
+[tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
+
 #
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
 這裡是齊亞德聯邦西方方面軍，軍械庫基地西邊森林外，除非特別安排了夜間演習，否則晚上不會有人的漆黑演習場。[p]
