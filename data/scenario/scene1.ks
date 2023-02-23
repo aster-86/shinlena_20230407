@@ -1,13 +1,22 @@
 [_tb_system_call storage=system/scene1.ks]
 
+
+
 [cm  ]
+
 [bg  storage="bg_black.png"  time="1000"  ]
+<<<<<<< HEAD
 [tb_ptext_show  x="185"  y="253"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete.&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  fadeout="false"  wait="true"  in_effect="swing"  out_effect="fadeOut"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="false"  ]
 [playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+=======
+[tb_ptext_show  x="150"  y="253"  size="30"  color="0xffffff"  time="100"  text="Fido_Loading_complete.Please_tap_to_start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
+>>>>>>> 7ca6947a0db9b344126bbdc7aec95fdfd0e73654
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
+
 #
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
 這裡是齊亞德聯邦西方方面軍，軍械庫基地西邊森林外，除非特別安排了夜間演習，否則晚上不會有人的漆黑演習場。[p]
