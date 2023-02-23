@@ -2,7 +2,7 @@
 
 [cm  ]
 [bg  storage="bg_black.png"  time="1000"  ]
-[tb_ptext_show  x="158"  y="301"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete...&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="158"  y="301"  size="30"  color="0xffffff"  time="0"  text="Fido&nbsp;Loading&nbsp;Complete..&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
@@ -96,7 +96,6 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 嗶！[p]
 [_tb_end_text]
