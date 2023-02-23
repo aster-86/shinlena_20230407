@@ -1,10 +1,90 @@
 [_tb_system_call storage=system/preview.ks ]
 
 [mask time=10]
-[bg  time="10"  method="crossfade"  storage="bg_sakuranight3.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
-[tb_show_message_window] 
 [mask_off time=10]
+[cm  ]
+[bg  storage="bg_black.png"  time="1000"  ]
+[tb_ptext_show  x="185"  y="253"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete.&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  fadeout="false"  wait="true"  in_effect="swing"  out_effect="fadeOut"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="false"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+[tb_ptext_hide  time="1000"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
+這裡是齊亞德聯邦西方方面軍，軍械庫基地西邊森林外，除非特別安排了夜間演習，否則晚上不會有人的漆黑演習場。[p]
+滿天的繁星如同珠寶盒中的鑽石灑落在黝黑天鵝絨上，最明亮的天狼星依然閃耀著奪目的光彩，[p]
+西方地平線邊緣的水瓶座就像當初和我分享天文學的尼可大人一樣，已經完全看不見了。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+萊登，我這邊接好了喔——[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+修迦，這邊也好了。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+辛，你那邊呢？[p]
+
+[_tb_end_text]
+
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="150"  top="0"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#辛
+嗯，好了。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+菲多，全部準備好了，麻煩你啦。[p]
+[_tb_end_text]
+
+[chara_hide  name="辛"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+交給我吧！[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="bg_sakuranight3.png"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#
+啪！的一聲。[p]
+壯闊的夜櫻。[p]
+燈光照亮了各自站在樹下的利迦大人、馬塞爾大人、諾贊大人以及修迦大人。[p]
+在他們四個人之間的空地，負責鋪設野餐墊以及擺放餐點的艾瑪大人、庫克米拉大人、[p]
+米利傑大人和潘洛斯大人則全被瞬間照亮的景致吸引了目光。[p]
+[_tb_end_text]
+
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="500"  top="0"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+哇⋯⋯好美喔⋯⋯⋯⋯[p]
+
+[_tb_end_text]
+
+[chara_hide  name="蕾娜"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
+#阿涅塔
+真的全是粉紅色的，這真是太驚人了！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+米利傑大人和潘洛斯大人不由得發出驚嘆的同時，四位大人也回到了野餐墊上。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+阿涅塔沒有看過櫻花嗎？[p]
+給妳，主廚特製超級豪華賞花三明治。[p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #阿涅塔
 謝謝。[p]
