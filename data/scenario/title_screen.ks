@@ -9,7 +9,7 @@
 [bg  storage="bg_sakuranight2.png"  ]
 *title
 
-[tb_image_show  time="1000"  storage="default/logo.png"  width="400"  height="273"  x="525"  y="91"  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/logo.png"  width="400"  height="209"  x="525"  y="91"  _clickable_img=""  ]
 [glink  color="theme_tyrano_02"  text="New&nbsp;Game"  x="600"  y="370"  size="24"  target="*start"  ]
 [glink  color="theme_tyrano_02"  text="Load&nbsp;Game"  x="600"  y="470"  size="24"  target="*load"  ]
 [s  ]
