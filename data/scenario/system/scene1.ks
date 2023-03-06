@@ -4,4 +4,6 @@
 [preload  storage="./data/bgimage/goodend_CG1_1.jpg"  ]
 [preload  storage="./data/bgimage/goodend_CG2_1.jpg"  ]
 [preload  storage="./data/bgimage/goodend_CG2_2.jpg"  ]
+[preload  storage="./data/bgimage/normalend_CG1.jpg"  ]
+[preload  storage="./data/bgimage/badend_CG1.jpg"  ]
 [return]

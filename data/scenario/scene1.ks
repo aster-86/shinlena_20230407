@@ -867,6 +867,8 @@ GOOD END[p]
 [s  ]
 *NORMAL_END
 
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="normalend_CG1.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 要3號（萊登）餵4號（辛）吃東西。[p]
@@ -884,6 +886,8 @@ NORMAL END[p]
 [s  ]
 *BAD_END
 
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="badend_CG1.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 菲多正在想著要怎麼暗示國王，辛和蕾娜是幾號牌，兩人（？）正在擠眉弄眼的時候被辛發現了，[p]

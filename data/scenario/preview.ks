@@ -4,16 +4,207 @@
 [bg  time="10"  method="fadeIn"  storage="bg_sakuranight3.png"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
 [tb_show_message_window] 
-[chara_show  name="蕾娜"  time="10"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="150"  ]
-[chara_show  name="辛"  time="10"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="150"  top=""  reflect="false"  ]
-[chara_show  name="安琪"  time="10"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="500"  ]
 [chara_move  name="賽歐"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  top="0"  left="-50"  width="443"  height="800"  ]
-[chara_move  name="馬塞爾"  anim="true"  time="10"  effect="easeInOutQuint"  wait="false"  left="700"  top="0"  width="443"  height="800"  ]
-[chara_move  name="蕾娜"  anim="false"  time="10"  effect="linear"  wait="false"  left="300"  top="0"  width="443"  height="800"  ]
+[chara_move  name="馬塞爾"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="50"  ]
+[chara_move  name="蕾娜"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="400"  ]
 [chara_move  name="可蕾娜"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="400"  top="0"  width="443"  height="800"  ]
 [chara_move  name="辛"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="100"  top="0"  width="443"  height="800"  ]
-[chara_move  name="安琪"  anim="false"  time="10"  effect="default"  wait="false"  left="400"  ]
 [mask_off time=10]
+[tb_start_text mode=1 ]
+#菲多
+不過難得有機會能再和各位大人，尤其是和諾贊大人一起嬉戲⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+以人類的視力而言，撲克牌的背面全都是一樣的圖案。[p]
+但對一個能夠記憶每個錄影畫面並加以比對的機械來說，這八張牌的背面還是有些許不同的。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+那麼，要怎麼發下撲克牌才好呢？[p]
+[_tb_end_text]
+
+[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="276"  width="450"  height=""  text="將紅心7發給米利傑大人"  _clickable_img=""  target="*GOOD_END"  ]
+[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="350"  width="450"  height=""  text="將黑桃4發給諾贊大人"  _clickable_img=""  target="*NORMAL_END"  ]
+[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="430"  width="450"  height=""  text="將黑桃4發給諾贊大人，並將紅心7發給米利傑大人"  _clickable_img=""  target="*BAD_END"  ]
+[tb_hide_message_window  ]
+[s  ]
+*GOOD_END
+
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#菲多
+這張牌是紅心7，就發給米利傑大人吧。國王當然是要交給⋯⋯[p]
+[_tb_end_text]
+
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="300"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#安琪
+哎呀，第一個國王是我喲。運氣真好～[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+既然艾瑪大人剛才這樣暗示諾贊大人了，她一定會命令米利傑大人休息的吧！[p]
+接著我得將米利傑大人和諾贊大人的牌號告訴艾瑪大人才行。[p]
+[_tb_end_text]
+
+[chara_move  name="安琪"  anim="false"  time="300"  effect="default"  wait="true"  left="400"  ]
+[tb_start_text mode=1 ]
+#安琪
+那麼，7號⋯⋯[p]
+[_tb_end_text]
+
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="100"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+是的！我是7號！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+太好了，確實叫到米利傑大人了！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#安琪
+把A的大腿當成枕頭躺下去吧。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+就是這樣，米利傑大人快躺下去吧⋯⋯[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+⋯⋯A？艾瑪大人誤會我的暗示了！拿到梅花A的是⋯⋯！[p]
+[_tb_end_text]
+
+[chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="50"  ]
+[tb_start_text mode=1 ]
+#可蕾娜
+咦？是誰拿到A了呢，怎麼不出聲？[p]
+[_tb_end_text]
+
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="300"  ]
+[tb_start_text mode=1 ]
+#萊登
+不是我喔。[p]
+[_tb_end_text]
+
+[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="550"  ]
+[tb_start_text mode=1 ]
+#賽歐
+也不是我喔～[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[wait  time="1000"  ]
+[chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel1.png"  width="443"  height="800"  left="400"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+⋯⋯⋯[p]
+
+[_tb_end_text]
+
+[chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="400"  top="50"  width="443"  height="800"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+⋯⋯⋯是我⋯⋯[p]
+[_tb_end_text]
+
+[chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="400"  top="100"  width="443"  height="800"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+⋯⋯為什麼又是我啊⋯⋯饒了我吧⋯⋯⋯⋯[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="150"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+馬塞爾少尉！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+現在立刻跪坐，這是命令！[p]
+[_tb_end_text]
+
+[chara_move  name="蕾娜"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="300"  top="0"  width="443"  height="800"  ]
+[chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="400"  top="150"  width="443"  height="800"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+妳這不是直接了當的命令我去死⋯⋯[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_move  name="馬塞爾"  anim="true"  time="1000"  effect="easeInOutBounce"  wait="true"  left="400"  top="250"  width="443"  height="800"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+啊啊啊啊啊啊啊啊————[p]
+[_tb_end_text]
+
+[chara_move  name="蕾娜"  anim="true"  time="1000"  effect="easeInQuad"  wait="true"  left="300"  top="250"  width="443"  height="800"  ]
+[tb_start_text mode=1 ]
+#菲多
+啊，米利傑大人要躺下去了。[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_show  name="辛"  time="0"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="150"  top=""  reflect="false"  ]
+[chara_move  name="蕾娜"  anim="false"  time="0"  effect="linear"  wait="true"  left="300"  top="0"  width="443"  height="800"  ]
+[quake  time="300"  count="3"  hmax="0"  wait="true"  vmax="10"  ]
+[chara_move  name="馬塞爾"  anim="true"  time="1200"  effect="easeInOutQuint"  wait="true"  left="700"  top="0"  width="443"  height="800"  ]
+[tb_start_text mode=1 ]
+#菲多
+在米利傑大人的頭部接觸到馬塞爾大人之前，諾贊大人就已經一把將米利傑大人拉回自己的懷裡，[p]
+同時還踹了馬塞爾大人一腳，讓他倒在野餐墊上空無一人的區域。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+痛痛痛痛⋯⋯諾贊，剛剛那個不是我願意的，[p]
+而且米利傑也完全沒碰到我，再說我今天是因為葉格生病所以才臨時被找來的啊！[p]
+所以拜託你冷靜點別衝動！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+就是說啊，諾贊上尉。玩遊戲不遵守遊戲規則的話要怎麼辦呢？所以⋯⋯⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人深深呼出的一口氣打斷了米利傑大人的抗議。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+蕾娜的頭髮已經碰到馬塞爾了，所以已經可以了吧。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+咦？頭髮而已不算⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+可以了吧，國王？[p]
+[_tb_end_text]
+
+[chara_hide  name="馬塞爾"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="500"  ]
+[tb_start_text mode=1 ]
+#安琪
+哎，可以了喔。[p]
+[_tb_end_text]
+
 [chara_hide  name="安琪"  time="1000"  wait="true"  pos_mode="false"  ]
 [tb_start_text mode=1 ]
 #菲多
@@ -171,6 +362,8 @@ GOOD END[p]
 [s  ]
 *NORMAL_END
 
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="normalend_CG1.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 要3號（萊登）餵4號（辛）吃東西。[p]
@@ -188,6 +381,8 @@ NORMAL END[p]
 [s  ]
 *BAD_END
 
+[tb_hide_message_window  ]
+[bg  time="1000"  method="crossfade"  storage="badend_CG1.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 菲多正在想著要怎麼暗示國王，辛和蕾娜是幾號牌，兩人（？）正在擠眉弄眼的時候被辛發現了，[p]
