@@ -1,5 +1,6 @@
 [preload  storage="./data/bgimage/bg_black.png"  ]
 [preload  storage="./data/bgimage/bg_sakuranight3.png"  ]
+[preload  storage="./data/bgimage/bg_sakuranight2.png"  ]
 [preload  storage="./data/bgimage/goodend_CG1_2.jpg"  ]
 [preload  storage="./data/bgimage/goodend_CG1_1.jpg"  ]
 [preload  storage="./data/bgimage/goodend_CG2_1.jpg"  ]
