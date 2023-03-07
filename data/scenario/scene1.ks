@@ -6,7 +6,6 @@
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
@@ -184,7 +183,6 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 諾贊大人，請您不要轉移話題！[p]
@@ -621,7 +619,7 @@
 
 [_tb_end_text]
 
-[chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="400"  top="50"  width="443"  height="800"  ]
+[tb_chara_shake  name="馬塞爾"  direction="x"  count="2"  swing="20"  time="100"  ]
 [tb_start_text mode=1 ]
 #馬塞爾
 ⋯⋯⋯是我⋯⋯[p]
@@ -652,6 +650,7 @@
 妳這不是直接了當的命令我去死⋯⋯[p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [chara_move  name="馬塞爾"  anim="true"  time="1000"  effect="easeInOutBounce"  wait="true"  left="400"  top="250"  width="443"  height="800"  ]
 [tb_start_text mode=1 ]
