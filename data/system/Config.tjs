@@ -1,8 +1,6 @@
 //ティラノビルダーによる自動ビルド　
-;debugMenu.visible=false
-;configSave=webstorage
 ;global.config_version=4.50
-;System.title=シンレナ 0407 DAY 2023
+;System.title=シンレナ DAY 0407 2023
 ;projectID=test
 ;game_version=0.0
 ;ScreenRatio=fix
@@ -30,6 +28,7 @@
 ;configVisible=true
 ;configLeft=-1
 ;configTop=-1
+;configSave=webstorage
 ;configThumbnail=true
 ;configThumbnailQuality=middle
 ;configSaveSlotNum=5
@@ -58,6 +57,7 @@
 ;mt=16
 ;mw=960-32
 ;mh=640-32
+;debugMenu.visible=false
 ;frameColor=0x000000
 ;frameOpacity=128
 ;defaultAutoReturn=true
@@ -65,7 +65,7 @@
 ;defaultFontSize=24
 ;defaultLineSpacing=8
 ;defaultPitch=0
-;userFace=Arial
+;userFace=メイリオ,sans-serif
 ;defaultChColor=#ffffff
 ;defaultBold=false
 ;defaultRubySize=10
@@ -78,10 +78,3 @@
 ;defaultLinkColor=0x0080ff
 ;defaultLinkOpacity=64
 ;vertical=false
-;use3D=false
-;vchat=false
-;vchatMenuVisible=false
-;defaultChEffect=none
-;defaultChEffectSpeed=0.2s
-;configSaveOverwrite=false
-;version=5.00

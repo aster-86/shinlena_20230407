@@ -2,38 +2,38 @@
 
 [cm  ]
 [bg  storage="bg_black.png"  time="1000"  ]
-[tb_ptext_show  x="154"  y="269"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete...Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  html5="true"  ]
+[tb_ptext_show  x="154"  y="269"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete......&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 恕我冒昧，請容我說說今天在諾贊大人身上發生的事情。[p]
 這裡是齊亞德聯邦西方方面軍，軍械庫基地西邊森林外，除非特別安排了夜間演習，否則晚上不會有人的漆黑演習場。[p]
 [_tb_end_text]
 
-[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="450"  top=""  reflect="false"  ]
+[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="100"  ]
 [tb_start_text mode=1 ]
 #賽歐
 萊登，我這邊接好了喔——[p]
 [_tb_end_text]
 
-[chara_move  name="賽歐"  anim="true"  time="300"  effect="linear"  wait="true"  top="0"  left="-50"  width="443"  height="800"  ]
-[chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel1.png"  width="443"  height="800"  left="450"  top="0"  reflect="false"  ]
+[chara_move  name="賽歐"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  top="0"  left="-50"  width="443"  height="800"  ]
+[chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel1.png"  width="443"  height="800"  left="800"  top="0"  ]
 [tb_start_text mode=1 ]
 #馬塞爾
 修迦，這邊也好了。[p]
 [_tb_end_text]
 
-[chara_move  name="馬塞爾"  anim="true"  time="300"  effect="linear"  wait="true"  left="850"  top="0"  width="443"  height="800"  ]
-[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="500"  top=""  reflect="false"  ]
+[chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="900"  ]
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="550"  ]
 [tb_start_text mode=1 ]
 #萊登
 辛，你那邊呢？[p]
 
 [_tb_end_text]
 
-[chara_move  name="萊登"  anim="true"  time="300"  effect="linear"  wait="true"  left="520"  top="0"  width="443"  height="800"  ]
 [chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="250"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
@@ -41,6 +41,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 是的，諾贊大人。[p]
@@ -54,7 +55,6 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="fadeIn"  storage="bg_sakuranight3.png"  ]
 [tb_show_message_window  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
 [tb_start_text mode=1 ]
 #
 滿天繁星。壯闊的夜櫻，花瓣飄落。[p]
@@ -74,7 +74,7 @@
 真的全是粉紅色的，這真是太驚人了！[p]
 [_tb_end_text]
 
-[chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="750"  top=""  reflect="false"  ]
+[chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="800"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #可蕾娜
 阿涅塔沒有看過櫻花嗎？[p]
@@ -88,22 +88,17 @@
 我當然有看過櫻花，不過第一區裡只有零星的幾棵而已，這麼大一整片全部都是櫻花樹倒是第一次看見呢，蕾娜應該也是第一次看見這麼多櫻花⋯⋯[p]
 [_tb_end_text]
 
-[chara_hide_all  time="1000"  wait="true"  ]
-[chara_show  name="阿涅塔"  time="1000"  wait="true"  storage="chara/7/anetta1.png"  width="443"  height="800"  left="500"  ]
-[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="800"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #阿涅塔
 賽歐你拿自己的三明治起來就好了啦！[p]
 [_tb_end_text]
 
-[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="150"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #阿涅塔
 萊登，盒子給你。[p]
 [_tb_end_text]
 
-[chara_hide_all  time="1000"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 配合賞花活動，軍官餐廳主廚特別為他們準備了便當。[p]
@@ -111,13 +106,13 @@
 就像各位大人曾經在櫻花樹下度過的那夜，熱鬧歡愉。[p]
 [_tb_end_text]
 
-[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="200"  top="0"  reflect="false"  ]
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="400"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
 是啊，我也還記得。在第八十六區的先鋒戰隊，也曾和基地全員一起晚上去賞櫻。[p]
 [_tb_end_text]
 
-[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="600"  top=""  reflect="false"  ]
+[chara_hide  name="可蕾娜"  time="1000"  wait="true"  pos_mode="false"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 抱歉喔，阿涅塔。[p]
@@ -150,7 +145,6 @@
 辛，難道你忘記了嗎？[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
 [tb_start_text mode=1 ]
 #菲多
 米利傑大人說的究竟是什麼時候的事呢，機動打擊群的初戰應該是去年四月的事情吧，[p]
@@ -171,7 +165,7 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 就是嘛，就像米利傑大人說的，原來您從那麼久以前就會一個人偷偷溜出去，不讓我隨時服侍您⋯⋯[p]
@@ -190,7 +184,7 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 諾贊大人，請您不要轉移話題！[p]
@@ -210,7 +204,7 @@
 是因為『那件事』呀。[p]
 [_tb_end_text]
 
-[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="800"  top=""  reflect="false"  ]
+[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="400"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #賽歐
 那還真是讓人『難忘』的一晚對吧，辛？[p]
@@ -520,6 +514,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 承蒙您的信任，庫克米拉大人。[p]
@@ -541,9 +536,9 @@
 那麼，要怎麼發下撲克牌才好呢？[p]
 [_tb_end_text]
 
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="400"  y="200"  width="500"  height=""  text="將紅心7發給米利傑大人"  _clickable_img=""  target="*GOOD_END"  ]
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="400"  y="300"  width="500"  height=""  text="將黑桃4發給諾贊大人"  _clickable_img=""  target="*NORMAL_END"  ]
-[glink  color="ts01"  storage="scene1.ks"  size="20"  x="400"  y="400"  width="500"  height=""  text="將黑桃4發給諾贊大人，並將紅心7發給米利傑大人"  _clickable_img=""  target="*BAD_END"  ]
+[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="276"  width="450"  height=""  text="將紅心7發給米利傑大人"  _clickable_img=""  target="*GOOD_END"  ]
+[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="350"  width="450"  height=""  text="將黑桃4發給諾贊大人"  _clickable_img=""  target="*NORMAL_END"  ]
+[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="430"  width="450"  height=""  text="將黑桃4發給諾贊大人，並將紅心7發給米利傑大人"  _clickable_img=""  target="*BAD_END"  ]
 [tb_hide_message_window  ]
 [s  ]
 *GOOD_END

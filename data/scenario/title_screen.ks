@@ -9,9 +9,9 @@
 [bg  storage="bg_sakuranight2.png"  ]
 *title
 
-[tb_image_show  time="1000"  storage="default/logo.png"  width="400"  height="209"  x="525"  y="91"  _clickable_img=""  name="img_6"  ]
-[glink  color="ts01"  text="New&nbsp;Game"  x="600"  y="370"  size="24"  target="*start"  width="200"  height=""  _clickable_img=""  ]
-[glink  color="ts01"  text="Load&nbsp;Game"  x="600"  y="470"  size="24"  target="*load"  width="200"  height=""  _clickable_img=""  ]
+[tb_image_show  time="1000"  storage="default/logo.png"  width="400"  height="209"  x="450"  y="91"  _clickable_img=""  name="img_6"  ]
+[glink  color="ts09"  text="New&nbsp;Game"  x="500"  y="370"  size="24"  target="*start"  width="200"  height=""  _clickable_img=""  ]
+[glink  color="ts09"  text="Load&nbsp;Game"  x="500"  y="470"  size="24"  target="*load"  width="200"  height=""  _clickable_img=""  ]
 [s  ]
 *start
 
