@@ -40,7 +40,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  clear="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 是的，諾贊大人。[p]
@@ -97,7 +97,7 @@
 萊登，盒子給你。[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 配合賞花活動，軍官餐廳主廚特別為他們準備了便當。[p]
@@ -164,7 +164,7 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 就是嘛，就像米利傑大人說的，原來您從那麼久以前就會一個人偷偷溜出去，不讓我隨時服侍您⋯⋯[p]
