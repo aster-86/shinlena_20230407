@@ -2,14 +2,455 @@
 
 [mask time=10]
 [bg  time="10"  method="fadeIn"  storage="bg_sakuranight3.png"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  html5="true"  ]
 [tb_show_message_window] 
-[chara_move  name="賽歐"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  top="0"  left="-50"  width="443"  height="800"  ]
-[chara_move  name="馬塞爾"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="50"  ]
-[chara_move  name="蕾娜"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="400"  ]
-[chara_move  name="可蕾娜"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="400"  top="0"  width="443"  height="800"  ]
-[chara_move  name="辛"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="100"  top="0"  width="443"  height="800"  ]
+[chara_show  name="蕾娜"  time="10"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="200"  top="0"  reflect="false"  ]
+[chara_show  name="阿涅塔"  time="10"  wait="true"  storage="chara/7/anetta1.png"  width="443"  height="800"  left="500"  ]
+[chara_show  name="可蕾娜"  time="10"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="750"  top=""  reflect="false"  ]
+[chara_move  name="賽歐"  anim="true"  time="10"  effect="linear"  wait="false"  top="0"  left="-50"  width="443"  height="800"  ]
+[chara_move  name="馬塞爾"  anim="true"  time="10"  effect="linear"  wait="false"  left="850"  top="0"  width="443"  height="800"  ]
+[chara_move  name="萊登"  anim="true"  time="10"  effect="linear"  wait="false"  left="520"  top="0"  width="443"  height="800"  ]
+[chara_move  name="可蕾娜"  anim="true"  time="10"  effect="easeInQuad"  wait="false"  left="700"  top="0"  width="443"  height="800"  ]
 [mask_off time=10]
+[tb_start_text mode=1 ]
+#阿涅塔
+謝謝。[p]
+我當然有看過櫻花，不過第一區裡只有零星的幾棵而已，這麼大一整片全部都是櫻花樹倒是第一次看見呢，蕾娜應該也是第一次看見這麼多櫻花⋯⋯[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="阿涅塔"  time="1000"  wait="true"  storage="chara/7/anetta1.png"  width="443"  height="800"  left="500"  ]
+[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="800"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#阿涅塔
+賽歐你拿自己的三明治起來就好了啦！[p]
+[_tb_end_text]
+
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="150"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#阿涅塔
+萊登，盒子給你。[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+配合賞花活動，軍官餐廳主廚特別為他們準備了便當。[p]
+三明治塞得滿滿的餐盒被艾瑪大人拿起交給庫克米拉大人，傳到潘洛斯大人手中之後，越過利迦大人進到修迦大人的手裡。[p]
+就像各位大人曾經在櫻花樹下度過的那夜，熱鬧歡愉。[p]
+[_tb_end_text]
+
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="200"  top="0"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#辛
+是啊，我也還記得。在第八十六區的先鋒戰隊，也曾和基地全員一起晚上去賞櫻。[p]
+[_tb_end_text]
+
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="600"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+抱歉喔，阿涅塔。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+其實⋯⋯我之前已經看過櫻花林了⋯⋯[p]
+就是在機動打擊群的初戰，協助共和國收復北部領土的時候。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+和辛一起⋯⋯⋯⋯[p]
+[_tb_end_text]
+
+[chara_hide  name="阿涅塔"  time="1000"  wait="true"  pos_mode="false"  ]
+[tb_start_text mode=1 ]
+#辛
+啊，[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+辛，難道你忘記了嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+米利傑大人說的究竟是什麼時候的事呢，機動打擊群的初戰應該是去年四月的事情吧，[p]
+難道諾贊大人趁我在臨時基地待命的時候偷跑出去了嗎？[p]
+又不帶我一起⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+不⋯⋯那次我是去掃墓的，不能算賞花吧？[p]
+還有菲多，我本來是打算去去就回，所以才沒有跟大家說，如果帶著你一起去的話豈不是一開始就會被發現了嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+雖然辛是去悼念戰友，但是那晚明明也和我還有萊登一起看了第一戰區的櫻花⋯⋯[p]
+辛好過分⋯⋯[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+就是嘛，就像米利傑大人說的，原來您從那麼久以前就會一個人偷偷溜出去，不讓我隨時服侍您⋯⋯[p]
+明明以前不管到哪裡都會讓我跟著的，諾贊大人好過分！[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+#辛
+菲多，怎麼連你也這樣⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+先不說賞花和菲多的事情，蕾娜，妳今天不可以喝酒。[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人，請您不要轉移話題！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+酒嗎？[p]
+聯邦軍並沒有禁止勤務時間之外喝酒，在各種派對上大家也都有喝⋯⋯⋯⋯[p]
+辛為什麼特別要我今天不能喝呢？[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="50"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#萊登
+是因為『那件事』呀。[p]
+[_tb_end_text]
+
+[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="400"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#賽歐
+那還真是讓人『難忘』的一晚對吧，辛？[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="400"  top="0"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#辛
+⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+蕾娜明天一早還有重要的會議吧，所以我希望妳今晚不要喝酒，[p]
+我們也帶了熱咖啡和其他飲料過來，妳從裡面挑選好嗎？[p]
+[_tb_end_text]
+
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="100"  top="0"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+唔⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+⋯⋯好吧。雖然不能和大家一起喝啤酒有些可惜，不過現在也只能妥協了。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+嘿咻！嗯——這瓶應該是熱水果茶吧，我就喝這個吧。[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="500"  ]
+[tb_start_text mode=1 ]
+#安琪
+好啦——[p]
+大家都有三明治和飲料了吧，總之我們先來乾杯，然後開始吃東西吧。[p]
+主廚為了我們，可是特別配合季節使用了象徵冬天的白色麵包，[p]
+春天印象的粉紅色鮮蝦沙拉還有代表夏天的新鮮翠綠生菜喔。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#安琪
+準備好了嗎？預——備——[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+乾杯——！[p]
+[_tb_end_text]
+
+[chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="200"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#可蕾娜
+雖然不能烤肉有些可惜，不過這個真好吃。[p]
+[_tb_end_text]
+
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="0"  top=""  reflect="false"  ]
+[chara_hide  name="安琪"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
+#萊登
+確實還不錯，不過我說可蕾娜，妳的沙拉沾到頭髮上了喔。[p]
+[_tb_end_text]
+
+[chara_hide  name="萊登"  time="1000"  wait="true"  pos_mode="false"  ]
+[tb_start_text mode=1 ]
+#可蕾娜
+咦？哪裡哪裡？[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="50"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+就在可蕾娜畫面左邊耳朵旁的髮梢喔，是的，就是那邊。[p]
+[_tb_end_text]
+
+[chara_hide  name="蕾娜"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel1.png"  width="443"  height="800"  left="50"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+我有帶餐巾紙過來，庫克米拉妳等我一下。[p]
+咦，怎麼不見了？[p]
+[_tb_end_text]
+
+[chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInOutQuint"  wait="true"  left="500"  top="0"  width="443"  height="800"  ]
+[chara_show  name="阿涅塔"  time="1000"  wait="true"  storage="chara/7/anetta1.png"  width="443"  height="800"  left=""  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#阿涅塔
+馬塞爾，你負責帶來的東西我剛才已經全部都放到野餐墊上了。[p]
+可蕾娜，餐巾紙給妳。[p]
+[_tb_end_text]
+
+[chara_hide  name="馬塞爾"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
+#可蕾娜
+謝啦，阿涅塔。[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left=""  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#賽歐
+辛已經吃完了喔？[p]
+速度太快了吧，你真的有好好品嘗味道嗎？[p]
+[_tb_end_text]
+
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="300"  ]
+[tb_start_text mode=1 ]
+#辛
+嗯，很好吃。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人和他的夥伴們輕鬆自在的在櫻花美景下用餐，快樂的氣氛連不是人類的我也確實感受到了。[p]
+[_tb_end_text]
+
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="550"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+辛！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+你真的有好好感受主廚做的料理嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+這可是主廚非常——非常——用心為我們準備的喔⋯⋯[p]
+如果不好好品嘗的話，主廚會傷心⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+⋯⋯不對，主廚會生氣的喔！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+蕾娜！[p]
+[_tb_end_text]
+
+[chara_hide  name="蕾娜"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="500"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#萊登
+喂，不會吧。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+蕾娜明明沒有拿啤酒啊？[p]
+[_tb_end_text]
+
+[chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="150"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#可蕾娜
+她到底喝了什麼？[p]
+⋯⋯⋯⋯這是熱紅酒！[p]
+[_tb_end_text]
+
+[chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel1.png"  width="443"  height="800"  left="400"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+啊，我想起來了！[p]
+剛才從基地出發之前，主廚說今晚會越來越冷，[p]
+為了避免我們像葉格一樣因為重感冒而臥床休養，所以硬塞了一瓶熱紅酒到我的背包裡⋯⋯[p]
+[_tb_end_text]
+
+[chara_show  name="阿涅塔"  time="1000"  wait="true"  storage="chara/7/anetta1.png"  width="443"  height="800"  left="200"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#阿涅塔
+然後這瓶熱紅酒被不知情的我從馬塞爾的背包拿出來放在野餐墊上。[p]
+[_tb_end_text]
+
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="300"  ]
+[tb_start_text mode=1 ]
+#安琪
+蕾娜就這麼剛好的拿到了這瓶加了許多水果和香料一起煮過的熱紅酒，[p]
+再加上我們全都喝啤酒所以也沒注意⋯⋯[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="100"  ]
+[tb_start_text mode=1 ]
+#辛
+安琪，妳幫我照顧蕾娜。[p]
+[_tb_end_text]
+
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="400"  ]
+[tb_start_text mode=1 ]
+#安琪
+辛要去哪裡呢？[p]
+[_tb_end_text]
+
+[chara_hide  name="安琪"  time="1000"  wait="true"  pos_mode="false"  ]
+[tb_start_text mode=1 ]
+#辛
+我記得附近有工兵隊為了建構戰場而設置的偽裝碉堡兼工具儲藏室，[p]
+裡面應該有鐵鍬，不然至少也有鐵鏟。[p]
+[_tb_end_text]
+
+[chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel1.png"  width="443"  height="800"  left="400"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+諾贊，忘記有熱紅酒確實是我的不對，我道歉，[p]
+但是蕾娜喝醉就不是我可以控制的事情了啊⋯⋯[p]
+[_tb_end_text]
+
+[chara_move  name="辛"  anim="true"  time="300"  effect="linear"  wait="true"  left="0"  top="0"  width="443"  height="800"  ]
+[chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="50"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+⋯⋯諾贊？諾贊！[p]
+你別走啊啊啊啊————[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人您又要丟下我，自己亂跑了嗎？[p]
+[_tb_end_text]
+
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="350"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+辛！請你坐下！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+我才沒有喝醉呢！[p]
+
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="-250"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+諾贊上尉、修迦中尉、利迦少尉、阿涅塔、庫克米拉少尉、艾瑪少尉、馬塞爾少尉。[p]
+你看，我都沒認錯人，所以我沒有喝醉！[p]
+[_tb_end_text]
+
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[chara_move  name="辛"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="50"  top="0"  width="443"  height="800"  ]
+[tb_start_text mode=1 ]
+#菲多
+請恕我直言，米利傑大人，您突然改變的稱呼方式以及有些搖晃不穩的軀幹，[p]
+根據在公共網路上查詢到的資料，完完全全符合關於「喝醉」的描述。[p]
+[_tb_end_text]
+
+[chara_move  name="辛"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="100"  top="0"  width="443"  height="800"  ]
+[tb_start_text mode=1 ]
+#辛
+蕾娜⋯⋯⋯⋯我們去旁邊稍微休息一下好嗎？[p]
+[_tb_end_text]
+
+[chara_move  name="蕾娜"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="400"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+大家才剛要開始玩不是嗎，為什麼要去旁邊休息？[p]
+⋯⋯諾贊上尉不想跟大家一起玩嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+⋯⋯⋯⋯[p]
+[_tb_end_text]
+
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="600"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#安琪
+蕾娜，我們來玩遊戲好嗎，國王遊戲怎麼樣呢？[p]
+可蕾娜有帶撲克牌來吧？[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+原來如此，艾瑪大人真是聰慧！[p]
+一心想要和夥伴們同樂的米利傑大人如果在遊戲中被命令休息的話，應該就會乖乖照著做了吧。[p]
+[_tb_end_text]
+
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="300"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+機動打擊群全體人員注意——開始執行國王遊戲！[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="300"  ]
+[tb_start_text mode=1 ]
+#可蕾娜
+好，看我的————[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+菲多，你來發牌吧，這樣比較公平嘛。[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+承蒙您的信任，庫克米拉大人。[p]
+[_tb_end_text]
+
 [tb_start_text mode=1 ]
 #菲多
 不過難得有機會能再和各位大人，尤其是和諾贊大人一起嬉戲⋯⋯[p]
