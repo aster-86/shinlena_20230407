@@ -3,7 +3,6 @@
 [cm  ]
 [tb_hide_message_window  ]
 [bg  storage="bg_black.png"  time="1000"  ]
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  clear="false"  ]
 [tb_ptext_show  x="336"  y="294"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete......&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
 [tb_ptext_hide  time="1000"  ]
@@ -42,7 +41,6 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  clear="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 是的，諾贊大人。[p]
@@ -105,7 +103,6 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="bg_black.png"  ]
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 配合賞花活動，軍官餐廳主廚特別為他們準備了便當。[p]
@@ -175,7 +172,6 @@
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 就是嘛，就像米利傑大人說的，原來您從那麼久以前就會一個人偷偷溜出去，不讓我隨時服侍您⋯⋯[p]
