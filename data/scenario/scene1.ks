@@ -3,7 +3,7 @@
 [cm  ]
 [bg  storage="bg_black.png"  time="1000"  ]
 [tb_ptext_show  x="154"  y="269"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete......&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  html5="true"  ]
 [tb_ptext_hide  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -53,6 +53,7 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="fadeIn"  storage="bg_sakuranight3.png"  ]
 [tb_show_message_window  ]
+[playse  volume="100"  time="1000"  buf="0"  storage="beep_feido.ogg"  html5="true"  ]
 [tb_start_text mode=1 ]
 #
 滿天繁星。壯闊的夜櫻，花瓣飄落。[p]

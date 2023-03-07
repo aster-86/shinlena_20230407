@@ -1,4 +1,6 @@
 //ティラノビルダーによる自動ビルド　
+;debugMenu.visible=false
+;configSave=webstorage
 ;global.config_version=4.50
 ;System.title=シンレナDAY 2023
 ;projectID=test
@@ -28,7 +30,6 @@
 ;configVisible=true
 ;configLeft=-1
 ;configTop=-1
-;configSave=webstorage
 ;configThumbnail=true
 ;configThumbnailQuality=middle
 ;configSaveSlotNum=5
@@ -57,7 +58,6 @@
 ;mt=16
 ;mw=960-32
 ;mh=640-32
-;debugMenu.visible=false
 ;frameColor=0x000000
 ;frameOpacity=128
 ;defaultAutoReturn=true
@@ -78,3 +78,10 @@
 ;defaultLinkColor=0x0080ff
 ;defaultLinkOpacity=64
 ;vertical=false
+;use3D=false
+;vchat=false
+;vchatMenuVisible=false
+;defaultChEffect=none
+;defaultChEffectSpeed=0.2s
+;configSaveOverwrite=false
+;version=5.00
