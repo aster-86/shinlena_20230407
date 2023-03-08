@@ -41,6 +41,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 是的，諾贊大人。[p]
@@ -557,9 +558,9 @@
 那麼，要怎麼發下撲克牌才好呢？[p]
 [_tb_end_text]
 
-[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="276"  width="450"  height=""  text="將紅心7發給米利傑大人"  _clickable_img=""  target="*GOOD_END"  ]
-[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="350"  width="450"  height=""  text="將黑桃4發給諾贊大人"  _clickable_img=""  target="*NORMAL_END"  ]
-[glink  color="theme_tyrano_02"  storage="scene1.ks"  size="20"  x="200"  y="430"  width="450"  height=""  text="將黑桃4發給諾贊大人，並將紅心7發給米利傑大人"  _clickable_img=""  target="*BAD_END"  ]
+[glink  color="white"  storage="scene1.ks"  size="20"  x="400"  y="100"  width="450"  height=""  text="將紅心7發給米利傑大人"  _clickable_img=""  target="*GOOD_END"  ]
+[glink  color="white"  storage="scene1.ks"  size="20"  x="400"  y="300"  width="450"  height=""  text="將黑桃4發給諾贊大人"  _clickable_img=""  target="*NORMAL_END"  ]
+[glink  color="white"  storage="scene1.ks"  size="20"  x="400"  y="500"  width="450"  height=""  text="將黑桃4發給諾贊大人，並將紅心7發給米利傑大人"  _clickable_img=""  target="*BAD_END"  ]
 [tb_hide_message_window  ]
 [s  ]
 *GOOD_END
