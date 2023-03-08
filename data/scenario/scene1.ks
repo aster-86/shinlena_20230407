@@ -2,6 +2,7 @@
 
 [cm  ]
 [tb_hide_message_window  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [bg  storage="bg_black.png"  time="1000"  ]
 [tb_ptext_show  x="336"  y="294"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete......&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
@@ -41,6 +42,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 是的，諾贊大人。[p]
@@ -103,6 +105,7 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="fadeIn"  storage="bg_black.png"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 配合賞花活動，軍官餐廳主廚特別為他們準備了便當。[p]
@@ -172,6 +175,7 @@
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 就是嘛，就像米利傑大人說的，原來您從那麼久以前就會一個人偷偷溜出去，不讓我隨時服侍您⋯⋯[p]
@@ -331,6 +335,7 @@
 嗯，很好吃。[p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 諾贊大人和他的夥伴們輕鬆自在的在櫻花美景下用餐，快樂的氣氛連不是人類的我也確實感受到了。[p]
@@ -448,6 +453,7 @@
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 諾贊大人您又要丟下我，自己亂跑了嗎？[p]
@@ -595,6 +601,7 @@
 是的！我是7號！[p]
 [_tb_end_text]
 
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 太好了，確實叫到米利傑大人了！[p]
@@ -611,6 +618,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 ⋯⋯A？艾瑪大人誤會我的暗示了！拿到梅花A的是⋯⋯！[p]
@@ -693,6 +701,7 @@
 [chara_move  name="蕾娜"  anim="false"  time="0"  effect="linear"  wait="true"  left="300"  top="0"  width="443"  height="800"  ]
 [quake  time="300"  count="3"  hmax="0"  wait="true"  vmax="10"  ]
 [chara_move  name="馬塞爾"  anim="true"  time="1200"  effect="easeInOutQuint"  wait="true"  left="700"  top="0"  width="443"  height="800"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 在米利傑大人的頭部接觸到馬塞爾大人之前，諾贊大人就已經一把將米利傑大人拉回自己的懷裡，[p]
