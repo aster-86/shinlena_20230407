@@ -37,14 +37,15 @@
 [chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="250"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
-完成了。菲多！[p]
+完成了。[p]
+——菲多！[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
-是的，諾贊大人。[p]
+遵命，諾贊大人。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -57,8 +58,36 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-滿天繁星。壯闊的夜櫻，花瓣飄落。[p]
-壯闊的夜櫻。[p]
+軍用野營照明燈照亮了壯闊的夜櫻。[p]
+滿天繁星下，淡淡粉紅色的花瓣緩緩飄落。[p]
+[_tb_end_text]
+
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="250"  top="0"  reflect="false"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
+[tb_start_text mode=1 ]
+#菲多
+就和遙遠的過去，各位大人在櫻花樹下度過的那夜一樣呢，諾贊大人。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+是啊，我也還記得。在第八十六區的先鋒戰隊，也曾和基地全員一起晚上去賞櫻。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人微笑著拍了拍我的光學感應器周圍，之後跟著修迦大人們的腳步，坐到野餐墊上米利傑大人的身邊。[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_start_text mode=1 ]
+#菲多
+就像字面上說的ーー鋪天蓋地的櫻花讓已經坐在野餐墊上的潘洛斯大人和米利傑大人看得入迷。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+溫柔婉約笑著的艾瑪大人拿起一份三明治，並將餐盒交給坐在身邊的庫克米拉大人。[p]
 [_tb_end_text]
 
 [chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="200"  top="0"  reflect="false"  ]
@@ -81,45 +110,48 @@
 給妳，主廚特製超級豪華賞花三明治。[p]
 [_tb_end_text]
 
-[chara_move  name="可蕾娜"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="700"  top="0"  width="443"  height="800"  ]
+[chara_hide_all  time="1000"  wait="true"  ]
+[tb_hide_message_window  ]
+[bg  time="1000"  method="fadeIn"  storage="bg_hamburger.png"  ]
+[tb_show_message_window  ]
+[chara_show  name="阿涅塔"  time="1000"  wait="true"  storage="chara/7/anetta1.png"  width="443"  height="800"  left="500"  ]
 [tb_start_text mode=1 ]
 #阿涅塔
-謝謝。[p]
-我當然有看過櫻花，不過第一區裡只有零星的幾棵而已，這麼大一整片全部都是櫻花樹倒是第一次看見呢，蕾娜應該也是第一次看見這麼多櫻花⋯⋯[p]
+謝謝。賽歐你先拿三明治吧。[p]
 [_tb_end_text]
 
-[chara_hide_all  time="1000"  wait="true"  ]
-[chara_show  name="阿涅塔"  time="1000"  wait="true"  storage="chara/7/anetta1.png"  width="443"  height="800"  left="450"  ]
 [chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo1.png"  width="443"  height="800"  left="150"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
-#阿涅塔
-賽歐你拿自己的三明治起來就好了啦！[p]
+#賽歐
+好喔ーー[p]
 [_tb_end_text]
 
-[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="800"  top=""  reflect="false"  ]
+[chara_hide  name="賽歐"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #阿涅塔
 萊登，盒子給你。[p]
 [_tb_end_text]
 
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="800"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#萊登
+好喲。[p]
+[_tb_end_text]
+
+[chara_hide  name="萊登"  time="1000"  wait="true"  pos_mode="true"  ]
+[tb_start_text mode=1 ]
+#阿涅塔
+我當然有看過櫻花，不過因為是『聖瑪格諾利亞共和國』，第一區裡大片種植的大多是白色的木蘭花，櫻花只有零星的幾棵而已，這麼大一整片全部都是櫻花樹倒是第一次看見呢。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#阿涅塔
+我想蕾娜應該也是第一次看見這麼多櫻花吧。[p]
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
-[bg  time="1000"  method="fadeIn"  storage="bg_black.png"  ]
-[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
-[tb_start_text mode=1 ]
-#菲多
-配合賞花活動，軍官餐廳主廚特別為他們準備了便當。[p]
-三明治塞得滿滿的餐盒被艾瑪大人拿起交給庫克米拉大人，傳到潘洛斯大人手中之後，越過利迦大人進到修迦大人的手裡。[p]
-就像各位大人曾經在櫻花樹下度過的那夜，熱鬧歡愉。[p]
-[_tb_end_text]
-
 [bg  time="1000"  method="fadeIn"  storage="bg_sakuranight3.png"  ]
-[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="300"  top="0"  reflect="false"  ]
-[tb_start_text mode=1 ]
-#辛
-是啊，我也還記得。在第八十六區的先鋒戰隊，也曾和基地全員一起晚上去賞櫻。[p]
-[_tb_end_text]
-
-[chara_show  name="蕾娜"  time="1000"  wait="true"  left="650"  storage="chara/2/lena1.png"  width="443"  height="800"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  left="650"  storage="chara/2/lena1.png"  width="443"  height="800"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 抱歉喔，阿涅塔。[p]
@@ -136,6 +168,7 @@
 和辛一起⋯⋯⋯⋯[p]
 [_tb_end_text]
 
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="300"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #辛
 啊，[p]
@@ -152,6 +185,7 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 米利傑大人說的究竟是什麼時候的事呢，機動打擊群的初戰應該是去年四月的事情吧，[p]
@@ -193,6 +227,7 @@
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #菲多
 諾贊大人，請您不要轉移話題！[p]
@@ -200,8 +235,7 @@
 
 [tb_start_text mode=1 ]
 #蕾娜
-酒嗎？[p]
-聯邦軍並沒有禁止勤務時間之外喝酒，在各種派對上大家也都有喝⋯⋯⋯⋯[p]
+酒嗎？聯邦軍並沒有禁止勤務時間之外喝酒，在各種派對上大家也都有喝，今天我們也準備了許多罐裝啤酒⋯⋯[p]
 辛為什麼特別要我今天不能喝呢？[p]
 [_tb_end_text]
 
@@ -262,6 +296,7 @@
 準備好了嗎？預——備——[p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_start_text mode=1 ]
 #
@@ -269,14 +304,89 @@
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight3.png"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="377"  top="0"  reflect="false"  ]
+[tb_image_show  time="1000"  storage="default/hamburger.png"  width="192"  height="185"  x="751"  y="219"  _clickable_img=""  name="img_104"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+清爽不油膩的沙拉醬襯托出蝦子的甘甜，鬆軟的白麵包裡夾著鮮脆的生菜，讓口感增加了許多層次。[p]
+主廚特製超級豪華賞花三明治真的好好吃喔。[p]
+[_tb_end_text]
+
+[tb_image_hide  time="1000"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+唔！唔嗯唔嗯——！嗯！嗯！[p]
+[_tb_end_text]
+
+[tb_chara_shake  name="蕾娜"  direction="x"  count="2"  swing="20"  time="100"  ]
+[tb_start_text mode=1 ]
+#辛
+蕾娜？噎到了嗎！[p]
+[_tb_end_text]
+
+[tb_chara_shake  name="蕾娜"  direction="x"  count="2"  swing="20"  time="100"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+嗯——嗯——嗯！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+快喝下妳的水果茶！[p]
+[_tb_end_text]
+
+[tb_chara_shake  name="蕾娜"  direction="x"  count="2"  swing="20"  time="100"  ]
+[tb_start_text mode=1 ]
+#蕾娜
+(咕嚕咕嚕)哈啊——哈啊——[p]
+[_tb_end_text]
+
+[chara_show  name="辛"  time="1000"  wait="true"  storage="chara/1/shin1.png"  width="443"  height="800"  left="50"  top="0"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#辛
+沒事吧，蕾娜？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+呼——我沒事了，謝謝你。[p]
+[_tb_end_text]
+
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="756"  top="0"  reflect="false"  ]
+[tb_start_text mode=1 ]
+#安琪
+沒事就好，讓我們好擔心呢。[p]
+[_tb_end_text]
+
+[chara_hide  name="安琪"  time="1000"  wait="true"  pos_mode="false"  ]
+[tb_start_text mode=1 ]
+#阿涅塔
+就是說嘛——蕾娜妳都幾歲了還像個小孩子一樣因為吃太急而噎到。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+對不起⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+三明治又不會不見，妳不要再吃的那麼急了喔——[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+是⋯⋯[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
 [chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="400"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #可蕾娜
-雖然不能烤肉有些可惜，不過這個真好吃。[p]
+不過這個三明治真的很好吃欸，雖然不能烤肉有些可惜就是了。[p]
 [_tb_end_text]
 
 [chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="0"  top=""  reflect="false"  ]
-[chara_hide  name="安琪"  time="1000"  wait="true"  pos_mode="false"  ]
 [tb_start_text mode=1 ]
 #萊登
 確實還不錯，不過我說可蕾娜，妳的沙拉沾到頭髮上了喔。[p]
@@ -292,7 +402,7 @@
 [chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="50"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #蕾娜
-就在可蕾娜畫面左邊耳朵旁的髮梢喔，是的，就是那邊。[p]
+就在可蕾娜畫面左邊耳朵旁的髮梢喔，對對，就是那邊喲。[p]
 [_tb_end_text]
 
 [chara_hide  name="蕾娜"  time="1000"  wait="true"  pos_mode="false"  ]
@@ -338,8 +448,9 @@
 諾贊大人和他的夥伴們輕鬆自在的在櫻花美景下用餐，快樂的氣氛連不是人類的我也確實感受到了。[p]
 [_tb_end_text]
 
-[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="550"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="550"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_NoWay3_loop.ogg"  click="true"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 辛！[p]
@@ -359,7 +470,6 @@
 [_tb_end_text]
 
 [tb_chara_shake  name="蕾娜"  direction="x"  count="2"  swing="20"  time="100"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_NoWay3_loop.ogg"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 ⋯⋯不對，主廚會生氣的喔！[p]
@@ -389,6 +499,7 @@
 ⋯⋯⋯⋯這是熱紅酒！[p]
 [_tb_end_text]
 
+[chara_hide_all  time="1000"  wait="true"  ]
 [chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel1.png"  width="443"  height="800"  left="500"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #馬塞爾
@@ -400,14 +511,28 @@
 [chara_show  name="阿涅塔"  time="1000"  wait="true"  storage="chara/7/anetta1.png"  width="443"  height="800"  left="200"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #阿涅塔
-然後這瓶熱紅酒被不知情的我從馬塞爾的背包拿出來放在野餐墊上。[p]
+然後這瓶馬塞爾帶來的熱紅酒被不知情的我從背包拿出來放在野餐墊上。[p]
 [_tb_end_text]
 
-[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="300"  ]
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="443"  height="800"  left="900"  ]
 [tb_start_text mode=1 ]
 #安琪
-蕾娜就這麼剛好的拿到了這瓶加了許多水果和香料一起煮過的熱紅酒，[p]
-再加上我們全都喝啤酒所以也沒注意⋯⋯[p]
+蕾娜就這麼剛好的拿到了這瓶因為加了許多水果和香料一起煮過，[p]
+所以已經聞不出酒味，馬塞爾帶來的熱紅酒。[p]
+[_tb_end_text]
+
+[chara_hide_all  time="1000"  wait="true"  ]
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden1.png"  width="443"  height="800"  left="200"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#萊登
+因為我們全都喝罐裝啤酒所以也沒注意，[p]
+最後再加上噎到所以蕾娜一口氣把整杯馬塞爾帶來的紅酒喝了⋯⋯[p]
+[_tb_end_text]
+
+[chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel1.png"  width="443"  height="800"  left="700"  top=""  reflect="false"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+為什麼你們每個人都要強調酒是我帶來的啊⋯⋯[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -476,6 +601,12 @@
 你看，我都沒認錯人，所以我沒有喝醉！[p]
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+#蕾娜
+而！且，我還能走『曲線』呢！[p]
+所以我沒有喝醉！[p]
+[_tb_end_text]
+
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [chara_move  name="辛"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="50"  top="0"  width="443"  height="800"  ]
 [tb_start_text mode=1 ]
@@ -520,19 +651,20 @@
 [chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="443"  height="800"  left="300"  ]
 [tb_start_text mode=1 ]
 #蕾娜
-機動打擊群全體人員注意——開始執行國王遊戲！[p]
+非常好的提案，艾瑪少尉！[p]
+那麼，機動打擊群全員注意——開始執行國王遊戲！[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena1.png"  width="443"  height="800"  left="300"  ]
 [tb_start_text mode=1 ]
 #可蕾娜
-好，看我的————[p]
+好，就讓你們瞧瞧我在抽鬼牌中累積下來的洗牌功力，看我的————[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #可蕾娜
-菲多，你來發牌吧，這樣比較公平嘛。[p]
+洗好了。菲多，你來發牌吧，這樣比較公平嘛。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -702,7 +834,7 @@
 [tb_start_text mode=1 ]
 #馬塞爾
 痛痛痛痛⋯⋯諾贊，剛剛那個不是我願意的，[p]
-而且米利傑也完全沒碰到我，再說我今天是因為葉格生病所以才臨時被找來的啊！[p]
+而且蕾娜也完全沒碰到我，再說我今天是因為葉格生病所以才臨時被找來的啊！[p]
 所以拜託你冷靜點別衝動！[p]
 [_tb_end_text]
 
@@ -712,8 +844,8 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#菲多
-諾贊大人深深呼出的一口氣打斷了米利傑大人的抗議。[p]
+#辛
+……[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -751,7 +883,7 @@
 
 [tb_start_text mode=1 ]
 #蕾娜
-什⋯⋯！哇啊啊——諾贊上尉⋯⋯辛——[p]
+什⋯⋯！哇啊啊——諾贊上尉⋯⋯[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -769,11 +901,6 @@
 不行⋯⋯還不行。[p]
 [_tb_end_text]
 
-[tb_hide_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Hanagoyomi.ogg"  ]
-[bg  time="1000"  method="crossfade"  storage="goodend_CG1_1.jpg"  ]
-[wait  time="1000"  ]
-[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #辛
 我帶蕾娜去旁邊醒酒，晚點直接回去基地。[p]
@@ -784,7 +911,6 @@
 了解。這邊我們自己看著辦。[p]
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_start_text mode=1 ]
 #賽歐
 路上小心——[p]
@@ -793,6 +919,61 @@
 [tb_start_text mode=1 ]
 #阿涅塔
 路上小心——[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Hanagoyomi.ogg"  ]
+[bg  time="1000"  method="crossfade"  storage="goodend_CG1_1.jpg"  ]
+[wait  time="1000"  ]
+[tb_show_message_window  ]
+[tb_start_text mode=1 ]
+#蕾娜
+我會不會很重⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+不會，只比共和國的突擊步槍重一些的蕾娜一點都不重。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+那是多久以前的話題了啊，而且我才不只比突擊步槍重一些⋯⋯這些不是重點。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+辛已經抱著我已經走了很長一段距離，吹了這麼久的風我也清醒多了，是不是可以放我下來了呢？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+蕾娜終於承認剛才醉了嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+是的⋯⋯對不起⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+放妳下來的話會走「曲線」嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+辛最討厭了。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+那麼我們到那邊的草地休息一下吧。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+好的⋯⋯[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -810,28 +991,100 @@
 
 [tb_start_text mode=1 ]
 #蕾娜
-明年也約大家一起賞花吧。後年也是，再之後也是，以後每年都找大家一起賞花吧。[p]
+先鋒戰隊全員也曾經一起賞花過呢。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #辛
-好啊，就這麼做吧。[p]
+是啊。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #蕾娜
-辛⋯⋯剛才真不好意思，我有些失控，讓你費心了。[p]
+櫻花，凱耶⋯⋯不，不只是凱耶⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+還有我來不及認識的庫丘、米娜、馬修，[p]
+我沒能幫助到的卡利亞、歐奇、麥娜、修利、萊卡、米可利、戴亞、奇諾、托瑪、智世、庫洛托、哈里茲、東山、伊歐，[p]
+以及因為我能力不足沒有管制，而在特別偵查之前戰死的悠人。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+如果我當時能再努力一點，如果我能夠更早發現自己的錯誤，[p]
+如果我能夠早點看清共和國的不堪，這樣是不是可以讓更多人活下來⋯⋯[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #辛
-說的也是。蕾娜明明已經答應我今天不喝酒，沒想到才過幾分鐘就醉了。[p]
+蕾娜！對戰友們先走一步感到悲傷這是人之常情。但是妳不可以把責任都攬在自己身上，這些不是蕾娜的錯。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+我——八六們都知道，妳已經盡全力戰鬥了。[p]
+還有，妳也還記著他們，那些傢伙一定會感到高興的。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+嗯，你說的對。就算是因為酒精的影響，我也不應該那樣想，對不起。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+這樣的話，明年也來賞花吧。在那些傢伙也曾經見過的風景下，讓他們知道我們都還記著。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+後年也是，再之後也是。[p]
+兩人一起，大家一起。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+嗯，然後在賞花之間，我們還要去看革命祭的煙火，還有辛說要帶我去看的藍色大海。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+還有維克邀請我們去看的極光和鑽石塵，跟當時妳堅持不看的夜光蟲。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+啊，我也還想再去盟約同盟泡溫泉呢！[p]
+那個加了松針、煉乳和冷凍水果的刨冰真的好好吃喔。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+那我們可有得忙了呢。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+呵呵⋯⋯沒錯呢。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+辛⋯⋯那個⋯⋯剛才真不好意思，我有些失控，讓你費心了。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+是啊。蕾娜明明已經答應我今天不喝酒，沒想到才過幾分鐘就醉了。[p]
 那麼接下來我要怎麼處罰說話不算話的人呢？[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #蕾娜
-咦，要處罰嗎？可是剛才喝到酒是意外，我也沒有真的醉到失去意識⋯⋯⋯⋯[p]
+咦，要處罰嗎？[p]
+可是剛才喝到酒是意外，我也沒有真的醉到失去意識⋯⋯⋯⋯[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -848,13 +1101,18 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
+#
+(辛嗤嗤笑著)[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
 #蕾娜
 啊——辛！你又捉弄我！[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
 #辛
-抱歉，一時忍不住⋯⋯[p]
+抱歉，看到蕾娜表情變得像隻做錯事的小貓，一時忍不住⋯⋯[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -890,21 +1148,247 @@
 GOOD END[p]
 [_tb_end_text]
 
-[bg  time="1000"  method="crossfade"  storage="bg_sakuranight2.png"  ]
 [tb_hide_message_window  ]
 [stopbgm  time="1000"  ]
 [jump  storage="ending.ks"  target=""  ]
 [s  ]
 *NORMAL_END
 
+[tb_show_message_window  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Guitar_Gentle_an_loop.ogg"  ]
+[bg  time="1000"  method="crossfade"  storage="bg_sakuranight3.png"  ]
+[tb_start_text mode=1 ]
+#可蕾娜
+咦？我拿到的牌是有圖案的⋯⋯所以我是國王嗎？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+庫克米拉大人舉起手裡的牌，興奮地向眾人展示。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+居然是可蕾娜抽中K啊⋯⋯我有很不好的預感。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+喂！你這是甚麼意思？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+感覺你就會提出一些奇怪的要求，像是倒立爬樹之類的。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+那怎麼可能嘛⋯⋯我想想⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+還沒等我做出提示，庫克米拉大人就已經像是做出了決定般，舉起食指。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+對了！就讓3號餵4號吃三明治吧！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+這個命令意外的普通啊⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+我是3號，誰是4號？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+⋯⋯我是4號。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+感覺倒立爬樹比較好？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+等等，這明顯比倒立爬樹簡單多了吧？不對，我可沒說要倒立爬樹！是賽歐亂講！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+但總覺得有點尷尬啊，辛又不是小孩子了，還要我餵他⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+我也不想。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+偶爾也給女性軍人一點福利嘛。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+我是不知道有誰會想看啦。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+嗯⋯⋯芙蕾德利嘉？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+她又不在這裡，而且她應該已經睡了吧？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#萊登
+啊⋯⋯好吧⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+抱著速戰速決的心態，修迦大人拿起三明治，朝諾贊大人的臉部塞了過去。[p]
+不知是不是多長年共同戰鬥培養出來的默契，諾贊大人同時張開嘴，準確地用口接住迎面而來的食物。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人正在咀嚼時，原本因喝醉而有些恍惚，在一旁輕晃身軀的米利傑大人，[p]
+彷彿被方才的餵食場景所觸動，突然直起身子，銀白雙眸緊盯著正在進食的諾贊大人。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+辛居然吃了⋯⋯萊登餵的三明治⋯⋯你們居然表現得那麼親密⋯⋯在我面前⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+蕾娜，這只是遊戲⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+果然比起我，辛還是更傾心於萊登⋯⋯[p]
+也是⋯⋯畢竟你們共同經歷了那麼多⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+蕾娜，聽我說⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+我不聽我不聽我不聽！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+米利傑大人完全不理會諾贊大人的辯解，突然站了起來，連鞋都沒穿，徑直朝後方的空地飛奔而去。[p]
+[_tb_end_text]
+
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="normalend_CG1.jpg"  ]
 [tb_show_message_window  ]
+[quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [tb_start_text mode=1 ]
-要3號（萊登）餵4號（辛）吃東西。[p]
-辛一臉厭惡，萊登也是百般不願意，但想快快結束這個鬧劇，所以抓著食物要塞進辛嘴裡。[p]
-醉了的蕾娜大大吃醋，說「果然還是萊登比我好嗎！」。蕾娜跑走，辛追上。櫻花下的深吻後續。[p]
+#馬塞爾
+嗚哇！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+因動作太大，米利傑大人起身時不小心將一旁的熱紅酒踢翻，潑灑在馬塞爾大人的褲子上。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+等等！蕾娜！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+畢竟諾贊大人的意識仍十分清醒，他不可能忘記將鞋穿上，以至於晚了一些才追上米利傑大人。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+諾贊大人將腳步不穩的戀人抱入懷中，並在她的唇瓣上印下一吻。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+突入其來的親暱舉動，是否能讓米利傑大人的意識稍微清醒一些呢？[p]
+或者米利傑大人會因為在眾人面前接吻，找回深埋於酒意之下的羞恥心⋯⋯之類的。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+辛⋯⋯別以為可以用吻打發我⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+那⋯⋯那妳希望我怎麼做？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#蕾娜
+在床上⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+即使隔了一段距離，兩人的對話還是完整地接收到了，想必在場其他大人也聽見了。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+好了好了，菲多，麻煩你先把那兩個人載回去。[p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
+[tb_start_text mode=1 ]
+#菲多
+遵命！庫克米拉大人。我舉起左前腿部，表示接受了「國王」的指令。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+在走向兩人之前，當然也不能忘記將米利傑大人的鞋子一起帶走。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+賞個花還要看笨蛋情侶親親我我⋯⋯酒都變得不好喝了啊⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#阿涅塔
+算啦，我們玩我們自己的就好，別管那兩人了。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -918,13 +1402,177 @@ NORMAL END[p]
 *BAD_END
 
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight2.png"  ]
-[tb_hide_message_window  ]
+[tb_show_message_window  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Puppet_loop.ogg"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+居然是我抽中K⋯⋯唉，真不想參與，感覺就沒什麼好事。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+怎麼這樣說，很好玩啊。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+順利讓馬塞爾大人成為國王了，接下來只要暗示他下正確的命令就行了！[p]
+雖然不是很有自信，但我會努力的！[p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
+[tb_start_text mode=1 ]
+#菲多
+我左右晃動本體，並發出連續提示音。[p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
+[tb_start_text mode=1 ]
+#馬塞爾
+嗯？菲多怎麼從剛剛開始就一直嗶嗶叫？故障？[p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
+[tb_start_text mode=1 ]
+#菲多
+太好了，馬塞爾大人察覺到了！[p]
+只要再加把勁，一定可以成功！[p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
+[tb_start_text mode=1 ]
+#菲多
+嗶———[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+什麼啦⋯⋯難道是⋯⋯摩斯密碼？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+不行⋯⋯馬塞爾大人好像無法理解我的意思⋯⋯[p]
+但為了米利傑大人和諾贊大人，我絕對不能放棄！[p]
+[_tb_end_text]
+
+[playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
+[tb_start_text mode=1 ]
+#菲多
+嗶嗶嗶嗶！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+我繼續發出一連串提示音，但國王本人已別開視線。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+我想想⋯⋯讓1號跟3號⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+你幹嘛慢吞吞的啊？快點下指示。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+哈啊⋯⋯我是很想啊，但是菲多一直干擾我。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+菲多？你在幹嘛？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+不會是⋯⋯想要干涉馬塞爾的指令吧？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#安琪
+難道我們的牌面是由菲多決定的？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#賽歐
+菲多，你這傢伙居然敢黑箱⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#可蕾娜
+馬塞爾也跟菲多是同一卦的吧⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+咦？等等，我完全不知情啊！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#馬塞爾
+別狡辯了！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+我雖然在一旁揮動前腳，努力想和各位大人解釋，但他們並沒有理會我，而是我一拳你一腳地，將不滿發洩在馬塞爾身上。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+造成這個局面的主謀者是我，我該怎麼做才好⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+察覺到某個既熟悉又滲人的眼神，我抱著戒慎恐懼的心情，緩緩將光學感應器朝向他。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+果然是諾贊大人。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#辛
+等一下！[p]
+[_tb_end_text]
+
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="badend_CG1.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-菲多正在想著要怎麼暗示國王，辛和蕾娜是幾號牌，兩人（？）正在擠眉弄眼的時候被辛發現了，[p]
-馬塞爾先被揍一頓，玩家菲多被關在倉庫靜思己過。[p]
+#辛
+菲多，賞花結束後，去倉庫裡待上三天，好好反省一下。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+那和平常相異的冰冷視線，彷彿在宣判我是個罪犯⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+等等！72小時都不能陪在諾贊大人身邊，得獨自在那個又黑又冷的地方度過？[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+我只是希望米利傑大人能儘快回去休息而已啊！諾贊大人太狠心了！[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+嗶————————[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+拾荒機的長聲提示音響徹夜空，和小型犬的悲鳴有些相似。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
