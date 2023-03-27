@@ -1,4 +1,8 @@
 [preload  storage="./data/bgimage/bg_black.png"  ]
+[preload  storage="./data/bgimage/bg_story.jpg"  ]
+[preload  storage="./data/bgimage/bg_graphic.jpg"  ]
+[preload  storage="./data/bgimage/bg_system.jpg"  ]
+[preload  storage="./data/bgimage/ending_message.jpg"  ]
 [preload  storage="./data/bgimage/bg_sakuranight3.png"  ]
 [preload  storage="./data/fgimage/chara/7/anetta5_angry.png"  ]
 [preload  storage="./data/fgimage/chara/7/anetta4_sideeye_smile.png"  ]

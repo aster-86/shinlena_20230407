@@ -42,6 +42,7 @@
 [preload  storage="./data/fgimage/chara/1/shin8_angry1.png"  ]
 [preload  storage="./data/bgimage/20230320_princess_hold.jpg"  ]
 [preload  storage="./data/bgimage/20230320_princess_hold2.jpg"  ]
+[preload  storage="./data/bgimage/20230320_princess_hold_0.jpg"  ]
 [preload  storage="./data/bgimage/20230320_princess_hold3.jpg"  ]
 [preload  storage="./data/bgimage/20230320_princess_hold4.jpg"  ]
 [preload  storage="./data/bgimage/20230320_princess_hold5.jpg"  ]

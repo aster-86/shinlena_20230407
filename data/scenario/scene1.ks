@@ -1,10 +1,9 @@
 [_tb_system_call storage=system/scene1.ks]
 
 [cm  ]
+[tb_ptext_hide  time="1000"  ]
 [tb_hide_message_window  ]
 [bg  storage="bg_black.png"  time="1000"  ]
-[tb_ptext_show  x="280"  y="256"  size="30"  color="0xffffff"  time="3000"  text="This&nbsp;is&nbsp;a&nbsp;fan&nbsp;fiction&nbsp;consists&nbsp;of&nbsp;stories&nbsp;written&nbsp;by&nbsp;fans.&nbsp;<p>&nbsp;Original&nbsp;copyright&nbsp;owned&nbsp;by&nbsp;Asato&nbsp;Asato&nbsp;-&nbsp;EightySix."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
-[tb_ptext_hide  time="1000"  ]
 [tb_ptext_show  x="336"  y="400"  size="30"  color="0xffffff"  time="1000"  text="Fido&nbsp;Loading&nbsp;Complete......&nbsp;Please&nbsp;tap&nbsp;to&nbsp;start."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
 [playbgm  volume="100"  time="1000"  loop="true"  storage="bgm_memories.ogg"  click="true"  ]
 [tb_ptext_hide  time="1000"  ]
@@ -157,6 +156,11 @@
 各位大人們圍成一圈坐著，邊輕鬆的閒聊，邊將晚餐的三明治傳給身旁的夥伴。[p]
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+#菲多
+潘洛斯大人等修迦大人把餐盒拿走之後，才又回過頭說明庫克米拉大人剛才的問題。[p]
+[_tb_end_text]
+
 [chara_mod  name="阿涅塔"  time="600"  cross="false"  storage="chara/7/anetta3_closeeye_smile.png"  ]
 [tb_start_text mode=1 ]
 #阿涅塔
@@ -274,13 +278,13 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden3_smile2.png"  width="470"  height="720"  left="200"  top=""  reflect="false"  ]
+[chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden9_looktheo.png"  width="470"  height="720"  left="200"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #萊登
 是因為『那件事』呀。[p]
 [_tb_end_text]
 
-[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo3_angrysmile.png"  width="470"  height="720"  left="600"  top=""  reflect="false"  ]
+[chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo6_lookraiden.png"  width="470"  height="720"  left="600"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #賽歐
 那還真是讓人『難忘』的一晚對吧，辛？[p]
@@ -318,6 +322,11 @@
 嘿咻！嗯——這瓶應該是熱水果茶吧，我就喝這個吧。[p]
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+#菲多
+米利傑大人拿起一個保溫瓶，聞了聞裡面的味道，接著倒進了杯子中。其他大人則是各自拿了啤酒在手裡。[p]
+[_tb_end_text]
+
 [chara_hide_all  time="1000"  wait="true"  ]
 [chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju1.png"  width="470"  height="720"  left="800"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
@@ -326,6 +335,11 @@
 大家都有三明治和飲料了吧，總之我們先來乾杯，然後開始吃東西吧。[p]
 主廚為了我們，可是特別配合季節使用了象徵冬天的白色麵包，[p]
 春天印象的粉紅色鮮蝦沙拉還有代表夏天的新鮮翠綠生菜喔。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+艾瑪大人用溫和的眼神確認每個人手中的啤酒都已經開罐了之後，接著高聲說⋯⋯[p]
 [_tb_end_text]
 
 [chara_mod  name="安琪"  time="600"  cross="false"  storage="chara/6/anju2_smile.png"  ]
@@ -343,7 +357,7 @@
 
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight3.png"  ]
 [chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena8_bigsmile.png"  width="470"  height="720"  left="377"  top="0"  reflect="false"  ]
-[tb_image_show  time="1000"  storage="default/hamburger.png"  width="192"  height="185"  x="751"  y="219"  _clickable_img=""  name="img_129"  ]
+[tb_image_show  time="1000"  storage="default/hamburger.png"  width="192"  height="185"  x="751"  y="219"  _clickable_img=""  name="img_133"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 清爽不油膩的沙拉醬襯托出蝦子的甘甜，鬆軟的白麵包裡夾著鮮脆的生菜，讓口感增加了許多層次。[p]
@@ -447,15 +461,15 @@
 [_tb_end_text]
 
 [tb_chara_shake  name="可蕾娜"  direction="x"  count="2"  swing="20"  time="100"  ]
-[chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena1.png"  width="470"  height="720"  left="50"  top=""  reflect="false"  ]
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju2_smile.png"  width="470"  height="720"  left="50"  top=""  reflect="false"  ]
 [chara_mod  name="可蕾娜"  time="600"  cross="false"  storage="chara/5/kurena4_suprise2.png"  ]
 [tb_start_text mode=1 ]
-#蕾娜
+#安琪
 就在可蕾娜畫面左邊耳朵旁的髮梢喔，對對，就是那邊喲。[p]
 [_tb_end_text]
 
 [chara_mod  name="可蕾娜"  time="600"  cross="true"  storage="chara/5/kurena5_suprise3.png"  ]
-[chara_hide  name="蕾娜"  time="1000"  wait="true"  pos_mode="false"  ]
+[chara_hide  name="安琪"  time="1000"  wait="true"  pos_mode="false"  ]
 [tb_chara_shake  name="可蕾娜"  direction="x"  count="2"  swing="20"  time="100"  ]
 [chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel2_talk.png"  width="470"  height="720"  left="50"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
@@ -476,14 +490,19 @@
 [chara_mod  name="可蕾娜"  time="600"  cross="true"  storage="chara/5/kurena2_smile.png"  ]
 [tb_start_text mode=1 ]
 #可蕾娜
-謝啦，阿涅塔。[p]
+謝、謝謝，阿涅塔。[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#菲多
+慌慌張張的庫克米拉大人吸引了大家的注意，她手忙腳亂的模樣讓每個人都笑了起來。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
 [chara_show  name="賽歐"  time="1000"  wait="true"  storage="chara/3/theo4_talk.png"  width="470"  height="720"  left=""  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #賽歐
-辛已經吃完了喔？[p]
+咦，不會吧！辛已經吃完了喔？[p]
 速度太快了吧，你真的有好好品嘗味道嗎？[p]
 [_tb_end_text]
 
@@ -496,7 +515,7 @@
 
 [tb_start_text mode=1 ]
 #菲多
-諾贊大人和他的夥伴們輕鬆自在的在櫻花美景下用餐，快樂的氣氛連不是人類的我也確實感受到了。[p]
+就像過去那樣笑笑鬧鬧，諾贊大人和夥伴們輕鬆自在的在櫻花美景下用餐，快樂的氣氛連不是人類的我也確實感受到了。[p]
 [_tb_end_text]
 
 [stopbgm  time="1000"  fadeout="true"  ]
@@ -554,10 +573,15 @@
 她到底喝了什麼？[p]
 [_tb_end_text]
 
+[tb_start_text mode=1 ]
+#菲多
+庫克米拉大人拿起剛才的保溫瓶，倒了一些出來試喝。[p]
+[_tb_end_text]
+
 [chara_mod  name="可蕾娜"  time="600"  cross="false"  storage="chara/5/kurena5_suprise3.png"  ]
 [tb_start_text mode=1 ]
 #可蕾娜
-⋯⋯⋯⋯這是熱紅酒！[p]
+⋯⋯⋯⋯這是熱紅酒吧！[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -591,8 +615,8 @@
 [chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden4_sideeye.png"  width="470"  height="720"  left="200"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #萊登
-因為我們全都喝罐裝啤酒所以也沒注意，[p]
-最後再加上噎到所以蕾娜一口氣把整杯馬塞爾帶來的紅酒喝了⋯⋯[p]
+我們全都喝罐裝啤酒因此沒注意。[p]
+最後，噎到的蕾娜一口氣把馬塞爾帶來的紅酒給整杯喝了⋯⋯[p]
 [_tb_end_text]
 
 [chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel5_weirdeye.png"  width="470"  height="720"  left="700"  top=""  reflect="false"  ]
@@ -718,7 +742,7 @@
 ⋯⋯⋯⋯[p]
 [_tb_end_text]
 
-[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju5_swear_smile.png"  width="470"  height="720"  left="600"  top=""  reflect="false"  ]
+[chara_show  name="安琪"  time="1000"  wait="true"  storage="chara/6/anju7_blingeyes.png"  width="470"  height="720"  left="600"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #安琪
 蕾娜，我們來玩遊戲好嗎，國王遊戲怎麼樣呢？[p]
@@ -728,6 +752,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_start_text mode=1 ]
 #菲多
+艾瑪大人一邊說一邊朝諾贊大人反覆眨著一隻眼睛。[p]
 原來如此，艾瑪大人真是聰慧！[p]
 一心想要和夥伴們同樂的米利傑大人如果在遊戲中被命令休息的話，應該就會乖乖照著做了吧。[p]
 [_tb_end_text]
@@ -760,8 +785,6 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-*SELECTION
-
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_start_text mode=1 ]
 #菲多
@@ -772,6 +795,8 @@
 #菲多
 不過難得有機會能再和各位大人，尤其是和諾贊大人一起嬉戲⋯⋯[p]
 [_tb_end_text]
+
+*SELECTION
 
 [tb_start_text mode=1 ]
 #菲多
@@ -792,7 +817,7 @@
 *GOOD_END
 
 [tb_eval  exp="f.Good_Ending=1"  name="Good_Ending"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Enjoyable2_loop.ogg"  fadein="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Awayuki.ogg"  fadein="true"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight2.png"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -894,7 +919,7 @@
 
 [chara_mod  name="馬塞爾"  time="600"  cross="false"  storage="chara/8/marcel8_afraid3.png"  ]
 [chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="400"  top="100"  width="470"  height="720"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Suspense2_loop.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Toys_Factory_loop.ogg"  ]
 [tb_start_text mode=1 ]
 #馬塞爾
 ⋯⋯為什麼又是我啊⋯⋯饒了我吧⋯⋯⋯⋯[p]
@@ -944,7 +969,8 @@
 [chara_mod  name="蕾娜"  time="600"  cross="false"  storage="chara/2/lena17_blush_suprise.png"  ]
 [quake  time="300"  count="3"  hmax="0"  wait="true"  vmax="10"  ]
 [chara_move  name="馬塞爾"  anim="true"  time="1200"  effect="easeInOutQuint"  wait="true"  left="700"  top="0"  width="470"  height="720"  ]
-[stopbgm  time="1000"  fadeout="true"  ]
+[chara_hide  name="蕾娜"  time="0"  wait="true"  pos_mode="false"  ]
+[chara_show  name="蕾娜"  time="0"  wait="true"  storage="chara/2/lena17_blush_suprise.png"  width="470"  height="720"  left="300"  ]
 [tb_start_text mode=1 ]
 #菲多
 在米利傑大人的頭部接觸到馬塞爾大人之前，諾贊大人就已經一把將米利傑大人拉回自己的懷裡，[p]
@@ -971,7 +997,6 @@
 就是說啊，諾贊上尉。玩遊戲不遵守遊戲規則的話要怎麼辦呢？所以⋯⋯⋯⋯[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Memories2.ogg"  ]
 [chara_mod  name="辛"  time="600"  cross="false"  storage="chara/1/shin8_angry1.png"  ]
 [tb_start_text mode=1 ]
 #辛
@@ -1019,12 +1044,14 @@
 修迦大人、利迦大人、潘洛斯大人、庫克米拉大人，你們怎麼一副快要在純度百分之百的糖漿中溺死了的表情呢？[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #辛
 蕾娜，國王已經同意了。所以⋯⋯[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Hanagoyomi.ogg"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="20230320_princess_hold.jpg"  ]
 [wait  time="1000"  ]
@@ -1079,9 +1106,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
-[bg  time="1000"  method="crossfade"  storage="bg_sakuranight2.png"  ]
-[quake  time="100"  count="3"  hmax="10"  wait="true"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Hanagoyomi.ogg"  ]
+[bg  time="1000"  method="crossfade"  storage="20230320_princess_hold_0.jpg"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
@@ -1124,9 +1149,9 @@
 [wait  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#蕾娜
-辛好過分，中間停頓那麼長的時間是在思考要怎麼捉弄我吧。[p]
-而且竟然是我還什麼都不了解時的事情。[p]
+#
+[font color=LightSkyBlue]辛好過分，中間停頓那麼長的時間是在思考要怎麼捉弄我吧。[p]
+而且竟然是我還什麼都不了解時的事情。[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1135,8 +1160,8 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#蕾娜
-雖然因為被辛捉弄了而有些不甘心，不過現在應該要讓辛別再這麼辛苦抱著我走路了⋯⋯[p]
+#
+[font color=LightSkyBlue]雖然因為被辛捉弄了而有些不甘心，不過現在應該要讓辛別再這麼辛苦抱著我走路了⋯⋯[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1151,8 +1176,8 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#辛
-辛的提問中帶著還想要捉弄人的笑意，但他說的內容是事實，無法反駁⋯⋯[p]
+#
+[font color=LightSkyBlue]辛的提問中帶著還想要捉弄人的笑意，但他說的內容是事實，無法反駁⋯⋯[resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1174,8 +1199,8 @@
 [wait  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#蕾娜
-辛明明知道我是因為醉了才說錯話，竟然在我道歉後還故意乘勝追擊！[p]
+#
+[font color=LightSkyBlue]辛明明知道我是因為醉了才說錯話，竟然在我道歉後還故意乘勝追擊！[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1203,6 +1228,7 @@
 [_tb_end_text]
 
 [tb_hide_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Sakuya4.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="goodend_CG2_1.jpg"  ]
 [wait  time="1000"  ]
 [tb_show_message_window  ]
@@ -1241,9 +1267,9 @@
 [wait  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#辛
-共和國東部戰線第一戰區第一防衛戰隊。剛到任的二十四人再加上整備班。[p]
-那座破爛基地的全員。[p]
+#
+[font color=Salmon]共和國東部戰線第一戰區第一防衛戰隊。剛到任的二十四人再加上整備班。[p]
+那座破爛基地的全員。[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1294,7 +1320,7 @@
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
-辛伸出帶著純白手套的手，用食指輕輕拭去蕾娜眼角的淚珠。[p]
+辛伸出戴著純白手套的手，用食指輕輕拭去蕾娜眼角的淚珠。[p]
 手指繼續向上移動，最後暫停在蕾娜的頭頂。[p]
 [_tb_end_text]
 
@@ -1316,12 +1342,12 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#辛
-無論是戰死⋯⋯或是負傷而離去。[p]
+#
+[font color=Salmon]無論是戰死⋯⋯或是負傷而離去。[p]
 無論是生理⋯⋯或是心理的傷痛。[p]
 全部。[p]
 都不是妳⋯⋯[p]
-也不是我的錯。[p]
+也不是我的錯。[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1331,10 +1357,10 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#辛
-與妳一起。[p]
+#
+[font color=Salmon]與妳一起。[p]
 記著他們的名字，記著他們的容貌，記著他們的聲音。[p]
-記著——他們曾經存在。[p]
+記著——他們曾經存在。[resetfont][p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
@@ -1365,7 +1391,7 @@
 
 [tb_start_text mode=1 ]
 #
-和妳一起，用行動來表示。[p]
+[font color=Salmon]和妳一起，用行動來表示。[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1417,9 +1443,9 @@
 辛⋯⋯那個⋯⋯剛才真不好意思，我有些失控，讓你費心了。[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Awayuki.ogg"  fadein="true"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="goodend_CG2_7.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Memories2.ogg"  fadein="true"  ]
 [wait  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -1445,9 +1471,9 @@
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#蕾娜
-雖然說是意外，但沒遵守約定喝了酒，還因此喝醉了也是事實。[p]
-辛生氣了嗎?[p]
+#
+[font color=LightSkyBlue]雖然說是意外，但沒遵守約定喝了酒，還因此喝醉了也是事實。[p]
+辛生氣了嗎?[resetfont][p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -1561,7 +1587,7 @@ GOOD END[p]
 
 [tb_eval  exp="f.Normal_Ending=1"  name="Normal_Ending"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [tb_show_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Guitar_Gentle_an_loop.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Holiday4_loop.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight3.png"  ]
 [chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena4_suprise2.png"  width="470"  height="720"  left="350"  ]
 [tb_start_text mode=1 ]
@@ -1774,6 +1800,7 @@ GOOD END[p]
 還沒等其他人開口，蕾娜用著不可置信的口氣說出自己的想法。[p]
 [_tb_end_text]
 
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_NoWay_loop.ogg"  ]
 [chara_mod  name="蕾娜"  time="600"  cross="false"  storage="chara/2/lena16_blush_sad1.png"  ]
 [tb_start_text mode=1 ]
 #蕾娜
@@ -1846,6 +1873,7 @@ GOOD END[p]
 [bg  time="1000"  method="crossfade"  storage="normal_end1.jpg"  ]
 [wait  time="1000"  ]
 [tb_show_message_window  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Koi_Wazurai.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 諾贊大人將腳步不穩的戀人抱入懷中，並在她的唇瓣上印下一吻。[p]
@@ -1964,7 +1992,7 @@ NORMAL END[p]
 [tb_eval  exp="f.Bad_Ending=1"  name="Bad_Ending"  cmd="="  op="t"  val="1"  val_2="undefined"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight2.png"  ]
 [tb_show_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Puppet_loop.ogg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Market_loop.ogg"  ]
 [chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel2_talk.png"  width="470"  height="720"  left="200"  ]
 [tb_start_text mode=1 ]
 #馬塞爾
