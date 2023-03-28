@@ -153,7 +153,7 @@
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [chara_show  name="辛"  time="0"  wait="true"  storage="chara/1/shin9_angry2.png"  width="470"  height="720"  left="150"  top=""  reflect="false"  ]
 [chara_move  name="蕾娜"  anim="false"  time="0"  effect="linear"  wait="true"  left="300"  top="0"  width="470"  height="720"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="kick.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="kick.ogg"  ]
 [chara_mod  name="蕾娜"  time="600"  cross="false"  storage="chara/2/lena17_blush_suprise.png"  ]
 [quake  time="300"  count="3"  hmax="0"  wait="true"  vmax="10"  ]
 [chara_move  name="馬塞爾"  anim="true"  time="1200"  effect="easeInOutQuint"  wait="true"  left="700"  top="0"  width="470"  height="720"  ]
@@ -296,7 +296,7 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="20230320_princess_hold_0.jpg"  ]
 [tb_show_message_window  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="footsteps_grass.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="footsteps_grass.ogg"  ]
 [tb_start_text mode=1 ]
 #
 氣溫比稍早又低了一些，伴著淡淡櫻花香氣的微風捎來些許涼意。[p]
@@ -396,7 +396,7 @@
 那麼我們到那邊的草地休息一下吧。[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="footsteps_grass.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="footsteps_grass.ogg"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="20230320_princess_hold7.jpg"  ]
 [wait  time="1000"  ]
@@ -408,7 +408,7 @@
 
 [playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Sakuya4.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight2.png"  ]
-[stopse  time="1000"  buf="0"  fadeout="true"  ]
+[stopse  time="1000"  buf="1"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #
 平躺在被粉紅花瓣完全覆蓋的新綠草地上仰望融入了粉紅色的星空，辛伸出手臂讓側身依偎在身邊蕾娜枕著。[p]
@@ -1009,7 +1009,7 @@ Good Ending.[p]
 嗚哇！[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="kick.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="kick.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 因動作太大，米利傑大人起身時不小心將一旁的熱紅酒踢翻，潑灑在馬塞爾大人的褲子上。[p]
@@ -1020,7 +1020,7 @@ Good Ending.[p]
 等等！蕾娜！[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="running-in-grass.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="running-in-grass.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 畢竟諾贊大人的意識仍十分清醒，他不可能忘記將鞋穿上，以至於晚了一些才追上米利傑大人。[p]
@@ -1032,7 +1032,7 @@ Good Ending.[p]
 諾贊大人將腳步不穩的戀人抱入懷中，並在她的唇瓣上印下一吻。[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="cartoon-kiss.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="cartoon-kiss.ogg"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="normal_end1.jpg"  ]
 [wait  time="1000"  ]

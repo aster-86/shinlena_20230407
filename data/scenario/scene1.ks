@@ -126,7 +126,7 @@
 [tb_hide_message_window  ]
 [bg  time="1000"  method="fadeIn"  storage="bg_hamburger.png"  ]
 [tb_show_message_window  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="taking-snacks.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="taking-snacks.ogg"  ]
 [chara_show  name="阿涅塔"  time="1000"  wait="true"  storage="chara/7/anetta1.png"  width="470"  height="720"  left="500"  ]
 [tb_start_text mode=1 ]
 #阿涅塔
@@ -146,13 +146,13 @@
 [_tb_end_text]
 
 [chara_show  name="萊登"  time="1000"  wait="true"  storage="chara/4/raiden2_smile.png"  width="470"  height="720"  left="800"  top=""  reflect="false"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="taking-snacks.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="taking-snacks.ogg"  ]
 [tb_start_text mode=1 ]
 #萊登
 好喲。[p]
 [_tb_end_text]
 
-[stopse  time="1000"  buf="0"  ]
+[stopse  time="1000"  buf="1"  ]
 [chara_hide  name="萊登"  time="1000"  wait="true"  pos_mode="true"  ]
 [tb_start_text mode=1 ]
 #菲多
@@ -352,7 +352,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="can-opening-fizzy-drink.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="can-opening-fizzy-drink.ogg"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_start_text mode=1 ]
 #
@@ -396,7 +396,7 @@
 
 [tb_chara_shake  name="蕾娜"  direction="x"  count="2"  swing="20"  time="100"  ]
 [chara_mod  name="蕾娜"  time="600"  cross="false"  storage="chara/2/lena10_choked2.png"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="drink-swallow.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="drink-swallow.ogg"  ]
 [tb_start_text mode=1 ]
 #蕾娜
 (咕嚕咕嚕)哈啊——哈啊——[p]
@@ -632,7 +632,7 @@
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="cartoon-spin.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="cartoon-spin.ogg"  ]
 [chara_show  name="蕾娜"  time="1000"  wait="true"  storage="chara/2/lena16_blush_sad1.png"  width="470"  height="720"  left="550"  ]
 [chara_move  name="蕾娜"  anim="true"  time="1000"  effect="easeInOutBounce"  wait="true"  left="100"  top="0"  width="470"  height="720"  ]
 [chara_move  name="蕾娜"  anim="true"  time="1000"  effect="easeInOutBounce"  wait="true"  left="600"  top="0"  width="470"  height="720"  ]
@@ -710,7 +710,7 @@
 你看，我都沒認錯人，所以我沒有喝醉！[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="0"  storage="cartoon-spin.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="cartoon-spin.ogg"  ]
 [chara_move  name="蕾娜"  anim="true"  time="1000"  effect="easeInOutBounce"  wait="true"  left="100"  top="0"  width="470"  height="720"  ]
 [chara_move  name="蕾娜"  anim="true"  time="1000"  effect="easeInOutBounce"  wait="true"  left="600"  top="0"  width="470"  height="720"  ]
 [chara_mod  name="蕾娜"  time="600"  cross="false"  storage="chara/2/lena16_blush_smile.png"  ]
@@ -782,7 +782,7 @@
 
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight3.png"  ]
 [chara_show  name="可蕾娜"  time="1000"  wait="true"  storage="chara/5/kurena6_confident.png"  width="470"  height="720"  left="400"  ]
-[playse  volume="100"  time="1000"  buf="0"  storage="card-shuffle.ogg"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="card-shuffle.ogg"  ]
 [tb_start_text mode=1 ]
 #可蕾娜
 好，就讓你們瞧瞧我在抽鬼牌中累積下來的洗牌功力，看我的————[p]
