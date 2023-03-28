@@ -15,7 +15,7 @@
 [tb_ptext_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_system.jpg"  ]
 [tb_ptext_show  x="300"  y="100"  size="30"  color="0xffffff"  time="1000"  text="Aster&nbsp;@&nbsp;aster_86<p>&nbsp;Visual&nbsp;Novel&nbsp;Programme&nbsp;-&nbsp;Tyranobuilder"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
-[tb_ptext_show  x="300"  y="300"  size="30"  color="0xffffff"  time="1000"  text="音樂<p>&nbsp;https://peritune.com"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
+[tb_ptext_show  x="300"  y="300"  size="30"  color="0xffffff"  time="1000"  text="音樂,&nbsp;SE<p>&nbsp;https://peritune.com<p>&nbsp;Pixabay"  anim="false"  face="undefined"  edge="undefined"  shadow="undefined"  ]
 [wait  time="3000"  ]
 [tb_ptext_hide  time="1000"  ]
 [bg  time="1000"  method="crossfade"  storage="ending_message.jpg"  ]

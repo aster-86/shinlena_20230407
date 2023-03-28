@@ -19,8 +19,8 @@
 [tb_image_hide  time="1000"  ]
 [cm  ]
 [tb_keyconfig  flag="1"  ]
-[bg  storage="bg_black.png"  ]
-[tb_ptext_show  x="65"  y="250"  size="30"  color="0xffffff"  time="1000"  text="Please&nbsp;spare&nbsp;about&nbsp;30s&nbsp;for&nbsp;game&nbsp;loading.&nbsp;<p>&nbsp;This&nbsp;fan-created&nbsp;story&nbsp;is&nbsp;NOT&nbsp;RELATED&nbsp;to&nbsp;the&nbsp;original&nbsp;work&nbsp;<&nbsp;86&nbsp;-Eighty&nbsp;Six-&nbsp;>.<p>&nbsp;The&nbsp;copyright&nbsp;of&nbsp;original&nbsp;work&nbsp;<&nbsp;86&nbsp;-Eighty&nbsp;Six-&nbsp;>&nbsp;belongs&nbsp;to&nbsp;安里アサト&nbsp;(Asato&nbsp;Asato)."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
+[bg  storage="starting_message.jpg"  ]
+[tb_ptext_show  x="65"  y="400"  size="30"  color="0xffffff"  time="1000"  text="Please&nbsp;spare&nbsp;about&nbsp;30s&nbsp;for&nbsp;game&nbsp;loading.&nbsp;<p>&nbsp;This&nbsp;fan-created&nbsp;story&nbsp;is&nbsp;NOT&nbsp;RELATED&nbsp;to&nbsp;the&nbsp;original&nbsp;work&nbsp;<&nbsp;86&nbsp;-Eighty&nbsp;Six-&nbsp;>.<p>&nbsp;The&nbsp;copyright&nbsp;of&nbsp;original&nbsp;work&nbsp;<&nbsp;86&nbsp;-Eighty&nbsp;Six-&nbsp;>&nbsp;belongs&nbsp;to&nbsp;安里アサト&nbsp;(Asato&nbsp;Asato)."  anim="false"  face="Arial"  edge="undefined"  shadow="undefined"  ]
 [jump  storage="scene1.ks"  target=""  ]
 [s  ]
 *load
