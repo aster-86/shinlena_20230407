@@ -88,9 +88,10 @@
 
 [_tb_end_text]
 
-[wait  time="1000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[wait  time="1000"  ]
 [chara_show  name="馬塞爾"  time="1000"  wait="true"  storage="chara/8/marcel9_afraid4.png"  width="470"  height="720"  left="400"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Toys_Factory_loop.ogg"  ]
 [tb_start_text mode=1 ]
 #馬塞爾
 ⋯⋯⋯[p]
@@ -106,7 +107,6 @@
 
 [chara_mod  name="馬塞爾"  time="600"  cross="false"  storage="chara/8/marcel8_afraid3.png"  ]
 [chara_move  name="馬塞爾"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="400"  top="100"  width="470"  height="720"  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Toys_Factory_loop.ogg"  ]
 [tb_start_text mode=1 ]
 #馬塞爾
 ⋯⋯為什麼又是我啊⋯⋯饒了我吧⋯⋯⋯⋯[p]
@@ -399,8 +399,8 @@
 [playse  volume="100"  time="1000"  buf="1"  storage="footsteps_grass.ogg"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="20230320_princess_hold7.jpg"  ]
-[wait  time="1000"  ]
 [stopbgm  time="1000"  fadeout="true"  ]
+[wait  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #蕾娜
@@ -509,6 +509,12 @@
 [tb_start_text mode=1 ]
 #辛
 蕾娜。[p]
+
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+辛輕聲喊出那先走一步的十九位隊員未曾呼喚過的名字。恬靜的語調中，充滿對約定好共度人生的對象的不捨。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -599,6 +605,7 @@
 
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="goodend_CG2_7.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Memories2.ogg"  fadein="true"  ]
 [wait  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -606,7 +613,6 @@
 放鬆了的氣氛讓蕾娜突然想起自己剛才因為酒意而有些不檢點的行為舉止，她有些害臊的道歉。[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Memories2.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #
 聽見蕾娜突然又開始道歉，辛沉穩的笑了。[p]
@@ -721,13 +727,6 @@
 許久之後才又聽見兩道同時深吸了一口氣之後的喘息聲。[p]
 [_tb_end_text]
 
-[tb_start_text mode=1 ]
-#
-在蕾娜鬧脾氣的話說完之前，辛已經用雙唇阻止她繼續說下去。[p]
-周圍只剩下陣陣微風吹過樹梢，枝葉窸窣摩擦的聲音。[p]
-許久之後才又聽見兩道同時深吸了一口氣之後的喘息聲。[p]
-[_tb_end_text]
-
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="goodend_CG3_1.jpg"  ]
 [wait  time="1000"  ]
@@ -833,6 +832,11 @@ Good Ending.[p]
 [tb_start_text mode=1 ]
 #萊登
 這個命令意外的普通啊⋯⋯[p]
+[_tb_end_text]
+
+[tb_start_text mode=1 ]
+#
+萊登露出苦笑，並舉起手上的牌。[p]
 [_tb_end_text]
 
 [chara_mod  name="萊登"  time="600"  cross="false"  storage="chara/4/raiden1.png"  ]
@@ -991,7 +995,6 @@ Good Ending.[p]
 蕾娜，這只是遊戲⋯⋯[p]
 [_tb_end_text]
 
-[stopbgm  time="1000"  fadeout="true"  ]
 [tb_start_text mode=1 ]
 #辛
 差點噎到的辛趕緊將食物嚥下，語氣急促地解釋。[p]
@@ -1053,18 +1056,19 @@ Good Ending.[p]
 畢竟諾贊大人的意識仍十分清醒，他不可能忘記將鞋穿上，以至於晚了一些才追上米利傑大人。[p]
 [_tb_end_text]
 
+[stopbgm  time="1000"  fadeout="true"  ]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
+[playse  volume="100"  time="1000"  buf="1"  storage="cartoon-kiss.ogg"  ]
 [tb_start_text mode=1 ]
 #菲多
 諾贊大人將腳步不穩的戀人抱入懷中，並在她的唇瓣上印下一吻。[p]
 [_tb_end_text]
 
-[playse  volume="100"  time="1000"  buf="1"  storage="cartoon-kiss.ogg"  ]
 [tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="normal_end1.jpg"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Koi_Wazurai.ogg"  fadein="true"  ]
 [wait  time="1000"  ]
 [tb_show_message_window  ]
-[playbgm  volume="100"  time="1000"  loop="true"  storage="PerituneMaterial_Koi_Wazurai.ogg"  fadein="true"  ]
 [tb_start_text mode=1 ]
 #菲多
 突入其來的親暱舉動，是否能讓米利傑大人的意識稍微清醒一些呢？[p]
