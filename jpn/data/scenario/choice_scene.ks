@@ -43,7 +43,7 @@
 
 [tb_start_text mode=1 ]
 #ファイド
-ようございます、確かにミリーゼ様が呼ばれました！[p]
+良かったです！確かにミリーゼ様が呼ばれました！[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -962,7 +962,7 @@ Good Ending.[p]
 
 [chara_mod  name="ライデン"  time="600"  cross="false"  storage="chara/12/raiden7_doubt2.png"  ]
 [tb_start_text mode=1 ]
-#ライデン
+#
 明らかに、ライデンはクレナの見解を認めてはいない。なぜその奇妙で早熟なガキの話をしようとしたのでさえ理解できなかった。[p]
 [_tb_end_text]
 
@@ -975,7 +975,7 @@ Good Ending.[p]
 [tb_start_text mode=1 ]
 #ファイド
 速く済ませようと一心でシュガ様はポテト1本を手に取り、ノウゼン様の顔に向けて腕を差し出していった。[p]
-長年でともに戦って培った黙契のせいか、ノウゼン様も同時に大きく口を開けて、正確にそのサンドイッチを受け止めた。[p]
+長年でともに戦って培った黙契のせいか、ノウゼン様も同時に大きく口を開けて、正確にそのポテトを受け止めた。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]

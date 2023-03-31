@@ -79,7 +79,7 @@
 [chara_mod  name="シン"  time="600"  cross="false"  storage="chara/9/shin3_smile.png"  ]
 [tb_start_text mode=1 ]
 #シン
-あぁ、おれもまた覚えでいる。八六区のスピヤヘッド戦隊基地の全員で夜桜を見に行ったことがあったな。[p]
+あぁ、おれもまだ覚えでいる。八六区のスピヤヘッド戦隊基地の全員で夜桜を見に行ったことがあったな。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -90,7 +90,7 @@
 [chara_hide_all  time="1000"  wait="true"  ]
 [tb_start_text mode=1 ]
 #ファイド
-文字通りーー空と大地全てを覆う桜の花は、すでにピクニック マットの上に座っていたペンローズ様とミリーゼ様は見入って、目が離せなくなりしました。[p]
+文字通り、空と大地全てを覆う桜の花は、すでにピクニック マットの上に座っていたペンローズ様とミリーゼ様は見入って、目が離せなくなりしました。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
@@ -168,13 +168,13 @@
 [chara_mod  name="アネット"  time="600"  cross="false"  storage="chara/15/anetta3_closeeye_smile.png"  ]
 [tb_start_text mode=1 ]
 #アネット
-もちろん桜は見たことがあります、でも「サンマグノリア共和国」ということもあって、第一区には白いマグノリアが沢山が植えられてて数本の桜しかないから、こんなに桜の木が一面に広がる景色を見るのはあたしも初めてよ。[p]
+もちろん桜は見たことがあるけど、でも「サンマグノリア共和国」ということもあって、第一区には白いマグノリアが沢山が植えられてて数本の桜しかないから、こんなに桜の木が一面に広がる景色を見るのはあたしも初めてよ。[p]
 [_tb_end_text]
 
 [chara_mod  name="アネット"  time="600"  cross="false"  storage="chara/15/anetta4_sideeye_smile.png"  ]
 [tb_start_text mode=1 ]
 #アネット
-レーナもこんなにたくさんの桜を見れるのは初めてのはずと思うけど。[p]
+レーナもこんなにたくさんの桜が見れるのは初めてのはずと思うけど。[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -221,22 +221,22 @@
 [playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #ファイド
-ミリーゼ様が言ったことは何時のお話ですか?機動打撃群の初戦は去年の四月だったはずですが。[p]
+ミリーゼ様が言ったことは何時のお話ですか？機動打撃群の初戦は去年の四月だったはずですが。[p]
 もしかしでわたくしが基地に待機している間に、ノウゼン様とこっそり何処に行きました？？[p]
-まだ連れて行ってくれなかった…[p]
+まだ連れて行ってもらえませんでした⋯[p]
 [_tb_end_text]
 
 [bg  time="1000"  method="crossfade"  storage="bg_sakuranight3.png"  ]
 [tb_start_text mode=1 ]
 #シン
-いや…あの時はお墓参りに行くつもりだったし…お花見というか…、[p]
-それとファイド、元々すぐ戻るつもりたから、みんなには言ってないだけ。お前も連れて行ったら、そもそもそれでバレるし。[p]
+いや⋯⋯あの時はお墓参りに行くつもりだったし⋯お花見というか⋯、[p]
+それとファイド、元々すぐ戻るつもりだったから、みんなには言ってないだけ。お前も連れて行ったら、そもそもそれでバレるし。[p]
 [_tb_end_text]
 
 [chara_mod  name="レーナ"  time="600"  cross="false"  storage="chara/10/lena6_sad.png"  ]
 [tb_start_text mode=1 ]
 #レーナ
-戦友を弔いするために行くと言いますが、あの夜はわたしとライデンと一緒に第一戦区の桜を見たのに⋯⋯！[p]
+戦友を弔いするために行くとは言いますが、あの夜はわたしとライデンと一緒に第一戦区の桜を見たのに⋯！[p]
 [_tb_end_text]
 
 [chara_mod  name="レーナ"  time="600"  cross="false"  storage="chara/10/lena13_sad2.png"  ]
@@ -271,7 +271,7 @@
 [playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #ファイド
-ノウゼン様、話題を逸らさないでください！[p]
+ノウゼン様、話を逸らさないでください！[p]
 [_tb_end_text]
 
 [chara_mod  name="レーナ"  time="600"  cross="true"  storage="chara/10/lena4_question.png"  ]
@@ -279,7 +279,7 @@
 #レーナ
 お酒ですか⋯⋯？[p]
 連邦軍は勤務時間外の飲酒を禁じてませんし、パーティーでみなさんも普通に飲んでましたし、今日だって缶ビールたくさん用意しましたし⋯⋯[p]
-うしでわたしだけ今日はお酒飲むの禁止するんですか⋯⋯?[p]
+どうしでわたしだけ今日はお酒飲むの禁止するんですか⋯⋯?[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -292,7 +292,7 @@
 [chara_show  name="セオ"  time="1000"  wait="true"  storage="chara/11/theo6_lookraiden.png"  width="470"  height="720"  left="600"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #セオ
-ほんとう、「忘れない」の夜だったね、シン？[p]
+ほんとう、「忘れられない」夜だったね、シン？[p]
 [_tb_end_text]
 
 [chara_hide_all  time="1000"  wait="true"  ]
@@ -306,7 +306,7 @@
 [tb_start_text mode=1 ]
 #シン
 レーナは明日の朝大事な会議があるのだろう？だから今夜は飲んでしまうと大変だと思う。[p]
-ホットコーヒーや他の飲み物も持ってきたから、その中から選んでくれる？[p]
+ホットコーヒーや他の飲み物も持ってきたから、その中から選んでくれるか？[p]
 [_tb_end_text]
 
 [chara_show  name="レーナ"  time="1000"  wait="true"  storage="chara/10/lena4_question.png"  width="470"  height="720"  left="600"  top="0"  reflect="false"  ]
@@ -426,8 +426,8 @@
 [chara_show  name="アネット"  time="1000"  wait="true"  storage="chara/15/anetta5_angry.png"  width="470"  height="720"  left="680"  top="0"  reflect="false"  ]
 [tb_start_text mode=1 ]
 #アネット
-就是說嘛——[p]
-そうだよ！レーナってこの歳になってもまだ子供みたいに早食いしで⋯喉が詰まるなんで。[p]
+そうだよ！[p]
+レーナってこの歳になってもまだ子供みたいに早食いしで⋯喉が詰まるなんで。[p]
 [_tb_end_text]
 
 [chara_mod  name="レーナ"  time="600"  cross="false"  storage="chara/10/lena13_sad2.png"  ]
@@ -545,7 +545,7 @@
 [chara_mod  name="レーナ"  time="600"  cross="false"  storage="chara/10/lena16_blush_sad1.png"  ]
 [tb_start_text mode=1 ]
 #レーナ
-これはねぇ…コック長がとてもとてもとーーても！念入りで用意いしてくれたものなので⋯[p]
+これはねぇ⋯コック長がとてもとてもとーーても！念入りで用意いしてくれたものなので⋯[p]
 ちゃんと味わってくれないと⋯コック長悲しんでしまいますよ⋯[p]
 [_tb_end_text]
 
@@ -596,13 +596,13 @@
 [chara_show  name="マルセル"  time="1000"  wait="true"  storage="chara/16/marcel3_suprise.png"  width="470"  height="720"  left="500"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #マルセル
-啊，我想起來了！[p]
+あっ、そう言えば⋯⋯[p]
 [_tb_end_text]
 
 [chara_mod  name="マルセル"  time="600"  cross="false"  storage="chara/16/marcel4_midsuprise.png"  ]
 [tb_start_text mode=1 ]
 #マルセル
-あっ、そう言えば⋯⋯さっき基地から出る前に、『今夜はますます冷えるから、風邪引くなよ。』とか言って、[p]
+さっき基地から出る前に、『今夜はますます冷えるから、風邪引くなよ。』とか言って、[p]
 コック長にむりやりホットワインを俺のバッグに⋯⋯[p]
 [_tb_end_text]
 
@@ -663,7 +663,6 @@
 [tb_start_text mode=1 ]
 #マルセル
 いやいやノウゼン！あったことを忘れたのは確かに悪かったと思うけど！謝るからさ！！[p]
-
 [_tb_end_text]
 
 [chara_mod  name="マルセル"  time="600"  cross="false"  storage="chara/16/marcel7_afraid2.png"  ]
@@ -702,14 +701,13 @@
 [tb_start_text mode=1 ]
 #レーナ
 酔ってたなんてしてませんっ！[p]
-
 [_tb_end_text]
 
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [chara_show  name="シン"  time="1000"  wait="true"  storage="chara/9/shin7_worried.png"  width="470"  height="720"  left="-250"  top=""  reflect="false"  ]
 [tb_start_text mode=1 ]
 #レーナ
-ウゼン大尉、シュガ少尉、アネット、ククミラ少尉、エマ少尉、マルセル少尉。[p]
+ノウゼン大尉、シュガ少尉、アネット、ククミラ少尉、エマ少尉、マルセル少尉。[p]
 ほら！ちゃんとみなさんのことわかってましたし⋯！[p]
 [_tb_end_text]
 
@@ -735,7 +733,7 @@
 [chara_mod  name="シン"  time="600"  cross="true"  storage="chara/9/shin5_sad.png"  ]
 [tb_start_text mode=1 ]
 #シン
-向こうで休んでいよう？レーナ。	[p]
+向こうで休んでいよう？レーナ。[p]
 [_tb_end_text]
 
 [chara_move  name="レーナ"  anim="true"  time="300"  effect="easeInQuad"  wait="true"  left="400"  ]
@@ -788,7 +786,7 @@
 [playse  volume="100"  time="1000"  buf="1"  storage="card-shuffle.ogg"  ]
 [tb_start_text mode=1 ]
 #クレナ
-よーし！ババ抜きから蓄積したトランプのシャッフルスキルをお見せてあける、いくよ——！[p]
+よーし！ババ抜きから蓄積したトランプのシャッフルスキルを見せてあける、いくよ——！[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
