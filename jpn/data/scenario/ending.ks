@@ -171,7 +171,7 @@ Please don't forget to support the original work < 86 -Eighty Six- >![p]
 [bg  time="1000"  method="crossfade"  storage="bg_black.png"  ]
 [tb_start_text mode=1 ]
 #ファイド
-ファイドの記憶を読んでくれてありがとう。分岐点に戻るか、ゲームをやり直すか選べます。[p]
+わたくしの記憶を読んでくださりありがとうございました。分岐点から続けますか、最初から始めますか、どうぞご自由にお選んでください。[p]
 [_tb_end_text]
 
 [glink  color="white"  storage="scene1.ks"  size="20"  target="*SELECTION"  text="BACK&nbsp;TO&nbsp;SELECTION"  x="500"  y="200"  width=""  height=""  _clickable_img=""  ]
