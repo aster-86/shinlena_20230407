@@ -183,7 +183,7 @@
 [tb_start_text mode=1 ]
 #レーナ
 ごめんね、アネット。[p]
-わたしはもう桜の森は見たんだけど⋯⋯[p]
+実は⋯⋯わたしはもう桜の森は見たんだけど⋯⋯[p]
 [_tb_end_text]
 
 [chara_mod  name="レーナ"  time="600"  cross="false"  storage="chara/10/lena1.png"  ]
