@@ -1152,7 +1152,8 @@ Good Ending.[p]
 [playse  volume="100"  time="1000"  buf="1"  storage="beep_feido.ogg"  loop="false"  ]
 [tb_start_text mode=1 ]
 #ファイド
-わかりました！ククミラ様！わたくしは左前の脚を上げ、王様の命令を引き受けたという表現をしました。[p]
+わかりました！ククミラ様！[p]
+わたくしは左前の脚を上げ、王様の命令を引き受けたという表現をしました。[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
