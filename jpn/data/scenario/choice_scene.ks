@@ -1458,7 +1458,7 @@ Good Ending.[p]
 [wait  time="3000"  ]
 [tb_start_text mode=1 ]
 #ファイド
-残念ながら、あなた様は不幸にもBad Endを選んでしまいました。ファイドはこれから倉庫に行って反省しなけらばならなくなりました。[p]
+残念ながら、あなた様は不幸にもBad Endを選んでしまいました。ファイドはこれから倉庫に行って反省しなければならなくなりました。[p]
 [_tb_end_text]
 
 [tb_hide_message_window  ]
