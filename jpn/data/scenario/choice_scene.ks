@@ -1006,7 +1006,7 @@ Good Ending.[p]
 [_tb_end_text]
 
 [tb_start_text mode=1 ]
-#シン
+#
 息が詰まるところだったシンは食べ物を速く飲み込んで、性急の口調で説明した。[p]
 [_tb_end_text]
 
